@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homely</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <a href="#" class="navbar-brand">Homely</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a href="#" class="nav-link" id="listing-btn">MAKE A LISTING</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- Introduction text -->
+    <div id="intro">
+      <h1>Find your new home.</h1>
+      <p>
+        Search for your new home with the tool below.<br />Or click
+        <a href="#">here</a> to make a new listing.<br />
+      </p>
+    </div>
+    <!-- Search tool -->
+    <div id="search">
+      <h2>Choose a city below to begin your search.</h2>
+      <div class="d-flex row justify-content-center">
+        <div class="col-sm-4 cities"><a href="#">HANOI</a></div>
+        <div class="col-sm-4 cities"><a href="#">DANANG</a></div>
+        <div class="col-sm-4 cities"><a href="#">HO CHI MINH CITY</a></div>
+      </div>
+      <p>More cities are coming soon!</p>
+    </div>
+    <!-- Newsletter -->
+    <div id="newsletter">
+      <h2>Enter your email below to get the latest from us!</h2>
+      <form action="submit" id="email">
+        <input type="email" name="email" id="email-address" />
+        <button type="submit" id="btn">Submit</button>
+      </form>
+    </div>
+    <footer>
+      <div class="row" id="contents">
+        <div class="col-sm-9">
+          <p>A product of team 3, C4EJS-95.</p>
+        </div>
+        <div class="col-sm-3">
+          <p>Contact us through Facebook or GitHub.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>

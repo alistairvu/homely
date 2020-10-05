@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+#listing-btn {
+  font-size: 0.75rem;
+  font-family: "Epilogue", sans-serif;
+}
+
+#intro h1 {
+  font-size: 4rem;
+  font-family: "Playfair Display", serif;
+}
+
+#intro p {
+  font-family: "Epilogue", sans-serif;
+}
+
+#search {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+#search .p-4 {
+  font-family: "Epilogue", sans-serif;
+  font-size: 1.25rem;
+}
+
+#search a {
+  color: black;
+}
+
+#search p {
+  font-family: "Epilogue", sans-serif;
+}
+
+#newsletter {
+  text-align: center;
+}
+
+input {
+  width: 30rem;
+  height: 2rem;
+}
+
+button {
+  background-color: white;
+  height: 2rem;
+  font-family: "Epilogue", sans-serif;
+}
+
+footer {
+  font-family: "Epilogue", sans-serif;
+}
