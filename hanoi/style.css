@@ -49,3 +49,13 @@
   font-size: 1.25rem;
   padding-bottom: 5%;
 }
+
+footer {
+  padding-top: 1rem;
+  background-color: whitesmoke;
+}
+
+footer #contents {
+  margin-left: 10%;
+  margin-right: 10%;
+}
