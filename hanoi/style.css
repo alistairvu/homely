@@ -1,0 +1,34 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar-brand {
+  color: black;
+  margin-left: 10%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+
+.navbar-brand:hover {
+  color: white;
+  background-color: black;
+}
+
+.navbar-nav {
+  margin-right: 10%;
+}
+
+#listing-btn {
+  border: 1px white solid;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#listing-btn:hover {
+  color: white;
+  background-color: black;
+}

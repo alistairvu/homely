@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+
+#listing-btn {
+  font-size: 0.75rem;
+  font-family: "Epilogue", sans-serif;
+}
