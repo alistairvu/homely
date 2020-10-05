@@ -48,8 +48,14 @@ h2 {
 }
 
 input {
-  width: 30rem;
+  width: 800px;
   height: 2rem;
+}
+
+@media (max-width: 1000px) {
+  input {
+    width: 80%;
+  }
 }
 
 button {
