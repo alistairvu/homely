@@ -10,33 +10,35 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=s, initial-scale=1.0" />
     <title>Homely: Hanoi</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
   </head>
   <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg" id="navbar">
-      <a href="../index.html" class="navbar-brand">Homely</a>
+      <a href="index.html" class="navbar-brand">Homely</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a href="#" class="nav-link" id="listing-btn">MAKE A LISTING</a>
+          <a href="#" class="nav-link" id="listing-btn">LOG IN</a>
         </li>
       </ul>
     </nav>
     <!-- Introduction text -->
     <div id="intro">
-      <h1><span id="listing-number">300</span> listings in Hanoi for you.</h1>
+      <h1><span id="listing-number">300</span> rental listings for you.</h1>
       <p>Use the filter below to narrow down your search.</p>
     </div>
     <!-- Search and display-->
-    <div id="search" class="row">
+    <div id="house-display" class="row">
       <!-- Results -->
-      <div id="results" class="col-sm-9">
+      <div id="house-results" class="col-sm-9">
+        <h4>Results</h4>
         <p>Loren ipsum</p>
       </div>
       <!-- Filter -->
-      <div id="filter" class="col-sm-3">
-        <p>Sort by:</p>
+      <div id="house-filter" class="col-sm-3">
+        <h4>Sort by:</h4>
+        <p>District</p>
       </div>
     </div>
     <!-- Footer -->

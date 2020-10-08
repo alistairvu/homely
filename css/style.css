@@ -94,3 +94,15 @@ footer #contents {
   margin-left: 10%;
   margin-right: 10%;
 }
+
+#house-display {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#house-filter {
+  background-color: whitesmoke;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

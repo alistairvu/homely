@@ -22,6 +22,52 @@
   font-family: "Epilogue", sans-serif;
 }
 
+#search {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+}
+
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+#search .p-4 {
+  font-family: "Epilogue", sans-serif;
+  font-size: 1.25rem;
+}
+
+#search a {
+  color: black;
+}
+
+#search p {
+  font-family: "Epilogue", sans-serif;
+}
+
+#newsletter {
+  text-align: center;
+}
+
+input {
+  width: 800px;
+  height: 2rem;
+}
+
+@media (max-width: 1000px) {
+  input {
+    width: 80%;
+  }
+}
+
+button {
+  background-color: white;
+  height: 2rem;
+  font-family: "Epilogue", sans-serif;
+}
+
 footer {
   font-family: "Epilogue", sans-serif;
 }
