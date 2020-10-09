@@ -26,11 +26,10 @@
   text-align: center;
 }
 
-h2 {
-  font-family: "Playfair Display", serif;
-}
-
-h4 {
+h2,
+h3,
+h4,
+h5 {
   font-family: "Playfair Display", serif;
 }
 
@@ -69,5 +68,9 @@ button {
 }
 
 footer {
+  font-family: "Epilogue", sans-serif;
+}
+
+#poster-info {
   font-family: "Epilogue", sans-serif;
 }

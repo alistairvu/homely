@@ -106,3 +106,33 @@ footer #contents {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+#listing-info {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#poster-info {
+  display: inline-block;
+  background-color: whitesmoke;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+#poster-info p {
+  padding-bottom: 0;
+}
+
+#poster-info a {
+  color: black;
+}
+
+#reveal-btn {
+  cursor: pointer;
+}
+
+#quick-info {
+  background-color: whitesmoke;
+}
