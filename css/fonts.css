@@ -84,3 +84,7 @@ footer {
   font-family: "Playfair Display", serif;
   color: darkgray;
 }
+
+.listing-input {
+  width: 200px;
+}

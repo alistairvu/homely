@@ -24,7 +24,7 @@
       <h1>Make a new listing.</h1>
       <p>Fill in the form below to make a new listing.</p>
     </div>
-
+    <!--Form-->
     <form action="#" id="form1">
       <!--Basic information-->
       <div id="basic-info">
@@ -33,13 +33,17 @@
           <!--Row 1-->
           <div class="col-sm">
             <label>
-              <b>TITLE:(<font color="red">*</font>)</b>
-              <input id="body1" type="text" placeholder="Title " required
+              Title(<font color="red">*</font>):<br />
+              <input
+                class="listing-input"
+                type="text"
+                placeholder="Title "
+                required
             /></label>
           </div>
           <div class="col-sm">
-            <label>Rental or Sale?(<font color="red">*</font>)</label>
-            <select id="housePick" required>
+            <label>Rental or Sale?(<font color="red">*</font>):</label><br />
+            <select class="listing-input" required>
               <option>Select</option>
               <option class="house">Rental</option>
               <option class="house">For Sale</option>
@@ -49,8 +53,8 @@
         <!--Row 2-->
         <div class="row">
           <div class="col-sm">
-            <label>City/Province(<font color="red">*</font>)</label>
-            <select id="city-pick" required>
+            <label>City/Province(<font color="red">*</font>):</label><br />
+            <select id="city-pick" class="listing-input" required>
               <option value="None">Select</option>
               <option class="city" value="hanoi">Hanoi</option>
               <option class="city" value="danang">Da Nang</option>
@@ -58,8 +62,8 @@
             </select>
           </div>
           <div class="col-sm">
-            <label>Quận/Huyện(<font color="red">*</font>)</label>
-            <select id="districtPick" required>
+            <label>District(<font color="red">*</font>):</label><br />
+            <select id="districtPick" class="listing-input" required>
               <option id="district-options">Select</option>
               <!-- <option class="districtDN">Sơn Trà</option>
               <option class="districtDN">Hải Châu</option>
@@ -71,18 +75,25 @@
         <!--Row 3-->
         <div class="row">
           <div class="col-sm">
-            <label>Price(<font color="red">*</font>)</label>:
+            <label>Price(<font color="red">*</font>):</label><br />
             <input
               id="price"
               type="text"
               name="search"
               placeholder=""
+              class="listing-input"
               required
             />
           </div>
           <div class="col-sm">
-            <label>Area (m<sup>2</sup>)</label>
-            <input id="area" type="text" name="search" placeholder="" />
+            <label>Area (m<sup>2</sup>):</label><br />
+            <input
+              id="area"
+              type="text"
+              name="search"
+              placeholder=""
+              class="listing-input"
+            />
           </div>
         </div>
       </div>
