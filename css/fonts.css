@@ -2,6 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
 
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
 .navbar-brand {
   font-weight: 700;
   font-family: "Dancing Script", cursive;
@@ -26,6 +30,7 @@
   text-align: center;
 }
 
+h1,
 h2,
 h3,
 h4,

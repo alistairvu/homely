@@ -1,51 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/listing-upload.css">
-    <h1 id="head1">THÔNG TIN CƠ BẢN</h1>
-    <body>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+    crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=s, initial-scale=1.0" />
+    <title>Homely: Upload listing</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/fonts.css" />    
+    <!-- <link rel="stylesheet" href="css/listing-upload.css"> -->
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <a href="index.html" class="navbar-brand">Homely</a>
+    </nav>
+    <!-- Introduction text -->
+    <div id="intro">
+      <h1>Make a new listing.</h1>
+      <p>Fill in the form below to make a new listing.</p>
+    </div>
+    <!--Basic information-->
+    <h1>Basic Information:</h1>
       <form action="#" id="form1">
-      <div class="row">
-        <div class="col-sm">
-          <label> <strong>TIÊU ĐỀ:(<font color="red">*</font>)</strong>  <input id="body1" type="text" name="TEXT" placeholder="Tiêu Đề " required></label>
+        <!--Row 1-->
+        <div class="row">
+          <div class="col-sm">
+            <label> <b>TITLE:(<font color="red">*</font>)</b>  <input id="body1" type="text" placeholder="Title " required></label>
+          </div>
+          <div class="col-sm">
+            <label >Rental or Sale?(<font color="red">*</font>)</label>
+            <select  id="housePick" required>
+              <option >Select</option>
+              <option class="house" >Rental</option>
+              <option class="house">For Sale</option>
+            </select>
+          </div>
         </div>
+        <!--Row 2-->
+        <div class="row">
+          <div class="col-sm">
+            <label >City/Province(<font color="red">*</font>)</label>
+            <select id="city-pick" required>
+              <option value="None">Select</option>
+              <option class="city" value="hanoi">Hanoi</option>
+              <option class="city" value="danang">Da Nang</option>
+              <option class="city" value="hcmc">Ho Chi Minh City</option>
+            </select>
+          </div>
         <div class="col-sm">
-          <label >Hình Thức(<font color="red">*</font>)</label>
-          <select  id="housePick" required>
-            <option >---Hình Thức---</option>
-              <option class="house" >NHÀ CHO THUÊ</option>
-              <option class="house">NHÀ BÁN</option>
+          <label>Quận/Huyện(<font color="red">*</font>)</label>
+          <select id="districtPick" required>
+            <option id="district-options">Select</option>
+            <!-- <option class="districtDN">Sơn Trà</option>
+            <option class="districtDN">Hải Châu</option>
+            <option class="districtHCM">Quận 1</option>
+            <option class="districtHCM">Quận 2</option> -->
           </select>
-        </div>
-      </div>
-      <br> <br> <br>
-      <div class="row">
-      <div class="col-sm">
-      <label >Tỉnh/Thành Phố(<font color="red">*</font>)</label>
-      <select  id="cityPick" required>
-        <option >--Tỉnh/Thành Phố--</option>
-        <option class="city"> Hà Nội</option>
-        <option class="city">Đà Nẵng</option>
-        <option class="city">Hồ Chí Minh</option>
-      </select>
-      </div>
-      <div class="col-sm">
-      <label>Quận/Huyện(<font color="red">*</font>)</label>
-      <select id="districtPick" required>
-        <option >--Quận/Huyện</option>
-        <option class="districtHN">Cầu Giấy</option>
-        <option class="districtHN">Thanh Xuân</option>
-        <option class="districtHN">Hoàn Kiếm</option>
-        <option class="districtDN">Sơn Trà</option>
-        <option class="districtDN">Hải Châu</option>
-        <option class="districtHCM">Quận 1</option>
-        <option class="districtHCM">Quận 2</option>
-
-      </select>
       </div>
     </div>
- <br> <br> <br>
  <div class="row">
    <div class="col-sm">
  <label >GIÁ(<font color="red">*</font>)</label>:  <input id="price" type="text" name="search" placeholder=""required> 
@@ -90,6 +107,6 @@ SỐ ĐIỆN THOẠI <input  type="text">
 </div>  
 <input type="submit" name="submit">
 </form>
-    </body>
-  </head>
+  </body>
+  <script src="js/listing-upload.js"></script>
 </html>
