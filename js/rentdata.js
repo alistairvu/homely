@@ -47,7 +47,7 @@ const RENT = [
       rentAddDis: "Quận 1",
       rentAddCity: "Hồ Chí Minh",
       rentTittle: `CHÍNH CHỦ BÁN NHÀ XÂY MỚI 32M2 X 5 TẦNG TẠI TƯ ĐÌNH LONG BIÊN`,
-      rentDescript: `Tôi cần bán căn nhà 5 tầng xây mới diện tích 32m2 căn góc 2 mặt thoáng (DTSD 160m2) tại ngõ 129 đường Bát Khối, khu Tư Đình, Long Biên giá 2,5 tỷ đồng.
+      rentDescript: `Căn nhà 5 tầng xây mới diện tích 32m2 căn góc 2 mặt thoáng (DTSD 160m2) tại ngõ 129 đường Bát Khối, khu Tư Đình, Long Biên giá 2,5 tỷ đồng.
               Tầng 1: Phòng khách và bếp ( bếp đã lắp đặt tủ bếp, hút mùi và bếp từ đôi, chậu rửa bát hai hố và vòi rửa bát nóng lạnh)
               Tầng 2 + tầng 3 + tầng 4: mỗi tầng có 1 phòng ngủ lớn 18m2 lát sàn gỗ và điều hòa các tầng cùng 1 phòng vệ sinh sang trọng với bộ thiết bị cao cấp, nóng lạnh các tầng và cabin tắm.
               Tầng 5: Sân phơi rộng lớn được che bởi tôn mát 2 lớp và sắt bảo vệ xung quanh.
@@ -70,8 +70,8 @@ const RENT = [
       rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
       rentAddDis: "Hoàn Kiếm",
       rentAddCity: "Hà Nội",
-      rentTittle: `BÁN NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
-      rentDescript: `Bán nhà mặt phố tại số 39 Lý Thường Kiệt, quận Hoàn Kiếm, thành phố Hà Nội.
+      rentTittle: `NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
+      rentDescript: `Nhà mặt phố tại số 39 Lý Thường Kiệt, quận Hoàn Kiếm, thành phố Hà Nội.
   
               Vị trí đắc địa nằm ngay trung tâm thành phố, dân cư đông đúc, giao thông thuận tiện, đường 2 chiều oto, mặt tiền cực thoáng, vỉa hè rộng, khu dân trí cao. Tiện mở văn phòng, kinh doanh..
               
@@ -116,8 +116,8 @@ const RENT = [
         "Thống Nhất Complex, số 82, Đường Nguyễn Tuân, Phường Thanh Xuân Trung, Thanh Xuân, Hà Nội",
       rentAddDis: "Thanh Xuân",
       rentAddCity: "Hà Nội",
-      rentTittle: `Bán liền kề 88m2 thấp tầng tổ hợp nhà LK trung tâm thương mại Thống Nhất Complex số 82 Nguyễn Tuân`,
-      rentDescript: `Bán liền kề 88m2 nhà ở thấp tầng tổ hợp nhà liền kề trung tâm thương mại và nhà ở Thống Nhất Complex số 82 Nguyễn Tuân - Quận Thanh Xuân - Hà Nội.
+      rentTittle: `Liền kề 88m2 thấp tầng tổ hợp nhà LK trung tâm thương mại Thống Nhất Complex số 82 Nguyễn Tuân`,
+      rentDescript: `Liền kề 88m2 nhà ở thấp tầng tổ hợp nhà liền kề trung tâm thương mại và nhà ở Thống Nhất Complex số 82 Nguyễn Tuân - Quận Thanh Xuân - Hà Nội.
       - Chủ đầu tư Công Ty Thống Nhất Bắc Việt.
       - Vị trí số 82 đường Nguyễn Tuân - Thanh Xuân.
       - Diện tích: 88m2 xây 5 tầng có thang máy.
@@ -161,8 +161,8 @@ const RENT = [
       rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
       rentAddDis: "Quận 1",
       rentAddCity: "Hồ Chí Minh",
-      rentTittle: `BÁN 170M2 ĐẤT TIỆN XÂY MỚI, ĐƯỜNG HAI BÀ TRƯNG, QUẬN 1`,
-      rentDescript: `Bán 170m2, ngang 5.5m. Đất xây mới đường Hai Bà Trưng Quận 1, bán gấp 22.5 tỷ chính chủ.
+      rentTittle: `170M2 ĐẤT TIỆN XÂY MỚI, ĐƯỜNG HAI BÀ TRƯNG, QUẬN 1`,
+      rentDescript: `170m2, ngang 5.5m. Đất xây mới đường Hai Bà Trưng Quận 1, bán gấp 22.5 tỷ chính chủ.
   
       Tiện xây mới 6 tầng, căn hộ dịch vụ, khách sạn, văn phòng hoặc an cư.`,
     },
@@ -180,7 +180,7 @@ const RENT = [
         "Dự án Lakeview City, Đường Song Hành, Phường An Phú, Quận 2, Hồ Chí Minh",
       rentAddDis: "Quận 2",
       rentAddCity: "Hồ Chí Minh",
-      rentTittle: `BÁN NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
+      rentTittle: `NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
       rentDescript: `Nhà phố phố view hồ Lakeview City giá hot có 102 căn góc chốt nhanh 18 tỷ,
       Lakeview City là một trong những khu đô thị tiềm năng và đáng sống tại tại quận 2,
       Lakeview City với vị trí thuận lợi giao thông với các khu vực lân cận và sân bay Long Thành khi xây dựng xong,
@@ -201,7 +201,7 @@ const RENT = [
         "Dự án Masteri Thảo Điền, Đường Thảo Điền, Phường Thảo Điền, Quận 2, Hồ Chí Minh",
       rentAddDis: "Quận 2",
       rentAddCity: "Hồ Chí Minh",
-      rentTittle: `BÁN NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
+      rentTittle: `NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
       rentDescript: `Ở đâu giá rẻ, em có giá rẻ hơn.
       Hỗ trợ tư vấn nhiệt tình + tận tâm + lấy uy tín làm đầu + không mua cũng không sao.
       Bên em cam kết: Giá rẻ hơn thị trường, trả sát giá chủ nhà. Miễn sao khách hàng ưng ý, với mức giá thấp nhất.
