@@ -1,0 +1,50 @@
+#head1 {
+  display: flex;
+  justify-content: center ;
+
+}
+#body1 {
+  width: 500px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 4px;
+      outline:none;
+      padding: 5px 14px;
+      transition:0.6s ease-in-out;
+    }
+#housePick{
+  width: 500px;
+  padding: 3px ;
+}
+#cityPick {
+  width: 465px;
+  padding: 3px;
+  
+}
+#districtPick{
+ width:  487px;
+  padding: 3px;
+}
+#area{
+  width: 490px;
+  padding:3px;
+  box-sizing: border-box;
+      border: 1px solid black;
+      border-radius: 4px;
+      outline:none;
+      padding: 5px 14px;
+
+      transition:0.6s ease-in-out;
+} 
+#head2{
+  display: flex;
+  justify-content: center;
+}
+#price{
+  width: 525px;
+  padding: 3px;
+}
+#head3 {
+  display: flex;
+  justify-content: center;
+}
