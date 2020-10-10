@@ -74,3 +74,8 @@ footer {
 #poster-info {
   font-family: "Epilogue", sans-serif;
 }
+
+.brief-info {
+  font-family: "Playfair Display", serif;
+  color: darkgray;
+}

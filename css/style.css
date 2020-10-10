@@ -50,7 +50,7 @@
   padding-bottom: 5%;
 }
 
-#intro a {
+a {
   color: black;
 }
 
@@ -101,6 +101,10 @@ footer #contents {
   margin-right: 10%;
 }
 
+#house-results {
+  margin-bottom: 1rem;
+}
+
 #house-filter {
   margin-bottom: 1rem;
 }
@@ -136,4 +140,10 @@ footer #contents {
   background-color: whitesmoke;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.listing-description {
+  line-height: 1.2rem;
+  max-height: 3.6rem;
+  overflow: hidden;
 }
