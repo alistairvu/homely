@@ -2,16 +2,16 @@
 <html lang="en">
   <head>
     <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
-    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
-    crossorigin="anonymous"
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=s, initial-scale=1.0" />
     <title>Homely: Upload listing</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/fonts.css" />    
+    <link rel="stylesheet" href="css/fonts.css" />
     <!-- <link rel="stylesheet" href="css/listing-upload.css"> -->
   </head>
   <body>
@@ -24,19 +24,24 @@
       <h1>Make a new listing.</h1>
       <p>Fill in the form below to make a new listing.</p>
     </div>
-    <!--Basic information-->
-    <h1>Basic Information:</h1>
-      <form action="#" id="form1">
-        <!--Row 1-->
+
+    <form action="#" id="form1">
+      <!--Basic information-->
+      <div id="basic-info">
+        <h1>Basic Information:</h1>
         <div class="row">
+          <!--Row 1-->
           <div class="col-sm">
-            <label> <b>TITLE:(<font color="red">*</font>)</b>  <input id="body1" type="text" placeholder="Title " required></label>
+            <label>
+              <b>TITLE:(<font color="red">*</font>)</b>
+              <input id="body1" type="text" placeholder="Title " required
+            /></label>
           </div>
           <div class="col-sm">
-            <label >Rental or Sale?(<font color="red">*</font>)</label>
-            <select  id="housePick" required>
-              <option >Select</option>
-              <option class="house" >Rental</option>
+            <label>Rental or Sale?(<font color="red">*</font>)</label>
+            <select id="housePick" required>
+              <option>Select</option>
+              <option class="house">Rental</option>
               <option class="house">For Sale</option>
             </select>
           </div>
@@ -44,7 +49,7 @@
         <!--Row 2-->
         <div class="row">
           <div class="col-sm">
-            <label >City/Province(<font color="red">*</font>)</label>
+            <label>City/Province(<font color="red">*</font>)</label>
             <select id="city-pick" required>
               <option value="None">Select</option>
               <option class="city" value="hanoi">Hanoi</option>
@@ -52,61 +57,71 @@
               <option class="city" value="hcmc">Ho Chi Minh City</option>
             </select>
           </div>
-        <div class="col-sm">
-          <label>Quận/Huyện(<font color="red">*</font>)</label>
-          <select id="districtPick" required>
-            <option id="district-options">Select</option>
-            <!-- <option class="districtDN">Sơn Trà</option>
-            <option class="districtDN">Hải Châu</option>
-            <option class="districtHCM">Quận 1</option>
-            <option class="districtHCM">Quận 2</option> -->
-          </select>
+          <div class="col-sm">
+            <label>Quận/Huyện(<font color="red">*</font>)</label>
+            <select id="districtPick" required>
+              <option id="district-options">Select</option>
+              <!-- <option class="districtDN">Sơn Trà</option>
+              <option class="districtDN">Hải Châu</option>
+              <option class="districtHCM">Quận 1</option>
+              <option class="districtHCM">Quận 2</option> -->
+            </select>
+          </div>
+        </div>
+        <!--Row 3-->
+        <div class="row">
+          <div class="col-sm">
+            <label>Price(<font color="red">*</font>)</label>:
+            <input
+              id="price"
+              type="text"
+              name="search"
+              placeholder=""
+              required
+            />
+          </div>
+          <div class="col-sm">
+            <label>Area (m<sup>2</sup>)</label>
+            <input id="area" type="text" name="search" placeholder="" />
+          </div>
+        </div>
       </div>
-    </div>
- <div class="row">
-   <div class="col-sm">
- <label >GIÁ(<font color="red">*</font>)</label>:  <input id="price" type="text" name="search" placeholder=""required> 
-</div>
-<div class="col-sm"
- <label >Diện Tích (m2)</label>  <input id="area" type="text" name="search" placeholder="">
- </div>
- <br><br><br>
- 
-</label>
-</div>
-  <H1 id="head2">HÌNH ẢNH VÀ VIDEO</H1>
-  
-  
-  <BR></BR>
-  <div style="font-size: xx-large;display: flex; justify-content: center;">
-   <i> KHÁCH HÀNG TẢI ẢNH VÀO ĐÂY</i>
-
-  </div>
-  <div >  Tin rao có ảnh sẽ được xem nhiều hơn gấp 10 lần và được nhiều người gọi gấp 5 lần so với tin rao không có ảnh. Hãy đăng ảnh để được giao dịch nhanh chóng!</div>
-    <input type="file" name="my_file[]" >
-    
-    
-    <br> <br> <br>
-
-
-
-
-<br> <br>
-
-<h1 ID="head3">THÔNG TIN LIÊN HỆ</h1>
-<div class="row">
-  <div class="col-sm">
-TÊN LIÊN HỆ  <input   type="text" placeholder="">
-</div>
-<div class="col-sm">
-SỐ ĐIỆN THOẠI <input  type="text">
-</div>
-<div class="col-sm">
-ĐỊA CHỈ <input  type="text">
-</div>
-</div>  
-<input type="submit" name="submit">
-</form>
+      <!--Images-->
+      <div id="images">
+        <h1>Images</h1>
+        <p>
+          Upload your images here. Listings with images have 10x viewership and
+          5x contact rate compared to listings without images.
+        </p>
+        <input type="file" name="my_file[]" />
+      </div>
+      <!--Contact information-->
+      <div id="contact-info">
+        <h1 id="head3">Contact information:</h1>
+        <div class="row">
+          <div class="col-sm">
+            Contact name: <input type="text" placeholder="" />
+          </div>
+          <div class="col-sm">Phone number: <input type="text" /></div>
+          <div class="col-sm">
+            Email:<br />
+            <input type="email" />
+          </div>
+        </div>
+        <button type="submit" name="submit">Submit</button>
+      </div>
+    </form>
+    <!--Footer-->
+    <footer>
+      <div class="row" id="house-display">
+        <div class="col-sm-9">
+          <p>A product of team 3, C4EJS-95.</p>
+        </div>
+        <div class="col-sm-3">
+          <p>Contact us through Facebook or GitHub.</p>
+        </div>
+      </div>
+    </footer>
   </body>
   <script src="js/listing-upload.js"></script>
 </html>

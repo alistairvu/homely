@@ -158,3 +158,8 @@ footer #contents {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+form {
+  margin-left: 20%;
+  margin-right: 20%;
+}
