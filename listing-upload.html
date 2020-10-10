@@ -20,44 +20,55 @@
         </div>
       </div>
       <br> <br> <br>
+      <div class="row">
+      <div class="col-sm">
       <label >Tỉnh/Thành Phố(<font color="red">*</font>)</label>
       <select  id="cityPick" required>
         <option >--Tỉnh/Thành Phố--</option>
-        <option id="city"> Hà Nội</option>
-        <option id="city">Đà Nẵng</option>
-        <option id="city">Hồ Chí Minh</option>
+        <option class="city"> Hà Nội</option>
+        <option class="city">Đà Nẵng</option>
+        <option class="city">Hồ Chí Minh</option>
       </select>
-    
+      </div>
+      <div class="col-sm">
       <label>Quận/Huyện(<font color="red">*</font>)</label>
       <select id="districtPick" required>
         <option >--Quận/Huyện</option>
-        <option id="districtHN">Cầu Giấy</option>
-        <option id="districtHN">Thanh Xuân</option>
-        <option id="districtHN">Hoàn Kiếm</option>
-        <option id="districtDN">Sơn Trà</option>
-        <option id="districtDN">Hải Châu</option>
-        <option id="districtHCM">Quận 1</option>
-        <option id="districtHCM">Quận 2</option>
+        <option class="districtHN">Cầu Giấy</option>
+        <option class="districtHN">Thanh Xuân</option>
+        <option class="districtHN">Hoàn Kiếm</option>
+        <option class="districtDN">Sơn Trà</option>
+        <option class="districtDN">Hải Châu</option>
+        <option class="districtHCM">Quận 1</option>
+        <option class="districtHCM">Quận 2</option>
 
       </select>
+      </div>
+    </div>
  <br> <br> <br>
+ <div class="row">
+   <div class="col-sm">
  <label >GIÁ(<font color="red">*</font>)</label>:  <input id="price" type="text" name="search" placeholder=""required> 
- 
+</div>
+<div class="col-sm"
  <label >Diện Tích (m2)</label>  <input id="area" type="text" name="search" placeholder="">
+ </div>
  <br><br><br>
  
 </label>
-  
+</div>
   <H1 id="head2">HÌNH ẢNH VÀ VIDEO</H1>
-  KHÁCH HÀNG ĐƯỢC ĐĂNG TỐI ĐA 5 ẢNH
-  <BR></BR>
-  <BR></BR>
   
-    <input type="file" name="my_file[]" multiple>
-    <input type="file" name="my_file[]" multiple>
-    <input type="file" name="my_file[]" multiple>
-    <input type="file" name="my_file[]" multiple>
-    <input type="file" name="my_file[]" multiple>
+  
+  <BR></BR>
+  <div style="font-size: xx-large;display: flex; justify-content: center;">
+   <i> KHÁCH HÀNG TẢI ẢNH VÀO ĐÂY</i>
+
+  </div>
+  <div >  Tin rao có ảnh sẽ được xem nhiều hơn gấp 10 lần và được nhiều người gọi gấp 5 lần so với tin rao không có ảnh. Hãy đăng ảnh để được giao dịch nhanh chóng!</div>
+    <input type="file" name="my_file[]" >
+    
+    
     <br> <br> <br>
 
 
@@ -66,11 +77,17 @@
 <br> <br>
 
 <h1 ID="head3">THÔNG TIN LIÊN HỆ</h1>
- 
-TÊN LIÊN HỆ  <input  style="padding: 3px; width: 300px;" type="text" placeholder="">
+<div class="row">
+  <div class="col-sm">
+TÊN LIÊN HỆ  <input   type="text" placeholder="">
+</div>
+<div class="col-sm">
 SỐ ĐIỆN THOẠI <input  type="text">
- 
-ĐỊA CHỈ <input style="padding: 3px; width: 500px;" type="text">
+</div>
+<div class="col-sm">
+ĐỊA CHỈ <input  type="text">
+</div>
+</div>  
 <input type="submit" name="submit">
 </form>
     </body>
