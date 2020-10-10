@@ -1,36 +1,36 @@
-const RENT = [
-    {
-      rentid: 1,
-      rentImg:
-        "https://file4.batdongsan.com.vn/resize/200x200/2020/05/07/vVMfcTGI/20200507155707-2542_wm.jpg",
-      rentPrice: 4.2,
-      rentBedroom: 3,
-      rentBathroom: 2,
-      rentFloor: 4,
-      rentPhone: "+84 1234567",
-      rentSquare: 40,
-      rentAddress: "So 1 Khu A phố B ",
-      rentAddDis: "Thanh Xuân",
-      rentAddCity: "Hà Nội",
-      rentTittle: `Cực hiếm, 35 m2 lô góc, 3 mặt thoáng, oto vào nhà, 5 tầng xây mới. Ngõ 175 Lạc Long Quân, Nghĩa Đô, Cầu Giấy`,
-      rentDescript: `Nhà vị trí cực đẹp, cực hiếm.
+export const RENT = [
+  {
+    rentid: 1,
+    rentImg:
+      "https://file4.batdongsan.com.vn/resize/200x200/2020/05/07/vVMfcTGI/20200507155707-2542_wm.jpg",
+    rentPrice: 4.2,
+    rentBedroom: 3,
+    rentBathroom: 2,
+    rentFloor: 4,
+    rentPhone: "+84 1234567",
+    rentSquare: 40,
+    rentAddress: "So 1 Khu A phố B ",
+    rentAddDis: "Thanh Xuân",
+    rentAddCity: "Hà Nội",
+    rentTittle: `Cực hiếm, 35 m2 lô góc, 3 mặt thoáng, oto vào nhà, 5 tầng xây mới. Ngõ 175 Lạc Long Quân, Nghĩa Đô, Cầu Giấy`,
+    rentDescript: `Nhà vị trí cực đẹp, cực hiếm.
               Xây 5 tầng khung bê tông chắc chắn, bao đẹp, NT toàn gỗ Lim nguyên khối`,
-    },
-    {
-      rentid: 1,
-      rentImg:
-        "https://file4.batdongsan.com.vn/resize/745x510/2020/08/21/IDHysJ7g/20200821081441-b4e0_wm.jpg",
-      rentPrice: 5.5,
-      rentBedroom: 5,
-      rentBathroom: 3,
-      rentFloor: 3,
-      rentPhone: "+84 1534567",
-      rentSquare: 40,
-      rentAddress: "So 2 Khu B phố C quận Thanh Xuân tp Hà Nội",
-      rentAddDis: "Thanh Xuân",
-      rentAddCity: "Hà Nội",
-      rentTittle: `Nhà 3 tầng 1 tỷ 50tr sổ đỏ bao tên đối diện AEON Mall Hà Đông`,
-      rentDescript: `Nhà vị trí cực đẹp, cực hiếm.
+  },
+  {
+    rentid: 1,
+    rentImg:
+      "https://file4.batdongsan.com.vn/resize/745x510/2020/08/21/IDHysJ7g/20200821081441-b4e0_wm.jpg",
+    rentPrice: 5.5,
+    rentBedroom: 5,
+    rentBathroom: 3,
+    rentFloor: 3,
+    rentPhone: "+84 1534567",
+    rentSquare: 40,
+    rentAddress: "So 2 Khu B phố C quận Thanh Xuân tp Hà Nội",
+    rentAddDis: "Thanh Xuân",
+    rentAddCity: "Hà Nội",
+    rentTittle: `Nhà 3 tầng 1 tỷ 50tr sổ đỏ bao tên đối diện AEON Mall Hà Đông`,
+    rentDescript: `Nhà vị trí cực đẹp, cực hiếm.
               Xây 5 tầng khung bê tông chắc chắn, bao đẹp, NT toàn gỗ Lim nguyên khối`,
     },
     {
@@ -78,22 +78,22 @@ const RENT = [
               Diện tích sổ đỏ: 31,2m2 x 4 tầng.
               Mặt tiền: 4m.
               Hiẹn đang cho thuê 100 triệu/tháng`,
-    },
-    {
-      rentid: 3,
-      rentImg:
-        "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
-      rentPrice: 20,
-      rentBedroom: 7,
-      rentBathroom: 5,
-      rentFloor: 3,
-      rentPhone: "+84 1235567",
-      rentSquare: 186.4,
-      rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
-      rentAddDis: "Hoàn Kiếm",
-      rentAddCity: "Hà Nội",
-      rentTittle: `100% CHÍNH CHỦ BÁN NHANH SONG LẬP ÁP GÓC KHU TULIP 03 - 32 TÂY BẮC 20 TỶ`,
-      rentDescript: `Sở hữu rất nhiều tiện ích như:
+  },
+  {
+    rentid: 3,
+    rentImg:
+      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
+    rentPrice: 20,
+    rentBedroom: 7,
+    rentBathroom: 5,
+    rentFloor: 3,
+    rentPhone: "+84 1235567",
+    rentSquare: 186.4,
+    rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    rentAddDis: "Hoàn Kiếm",
+    rentAddCity: "Hà Nội",
+    rentTittle: `100% CHÍNH CHỦ BÁN NHANH SONG LẬP ÁP GÓC KHU TULIP 03 - 32 TÂY BẮC 20 TỶ`,
+    rentDescript: `Sở hữu rất nhiều tiện ích như:
       - Clurent rộng tới gần 10.000m2, hồ điều 12.4Ha cách 50m.
       - Quảng trường trung tâm hướng hồ điều hòa.
       - Khu thể thao, sân tập golf, sân tennis, công viên, vườn hoa.
@@ -126,22 +126,22 @@ const RENT = [
       - Mật độ xây dựng: 85%.
       - Đường phân lô 12.5m.
       Vị trí cách đường Nguyễn Tuân 20m.`,
-    },
-    {
-      rentid: 3,
-      rentImg:
-        "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
-      rentPrice: 22.5,
-      rentBedroom: 7,
-      rentBathroom: 5,
-      rentFloor: 6,
-      rentPhone: "+84 1235567",
-      rentSquare: 75,
-      rentAddress: "HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO QUẬN 1",
-      rentAddDis: "Quận 1",
-      rentAddCity: "Hồ Chí Minh",
-      rentTittle: `HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO QUẬN 1, DT: 4.5 X 17M, 3 TẦNG, HẺM 3 M SAU NHÀ.`,
-      rentDescript: `HXH 5m Nguyễn Đình Chiểu ĐaKao Quận 1,
+  },
+  {
+    rentid: 3,
+    rentImg:
+      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
+    rentPrice: 22.5,
+    rentBedroom: 7,
+    rentBathroom: 5,
+    rentFloor: 6,
+    rentPhone: "+84 1235567",
+    rentSquare: 75,
+    rentAddress: "HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO QUẬN 1",
+    rentAddDis: "Quận 1",
+    rentAddCity: "Hồ Chí Minh",
+    rentTittle: `HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO QUẬN 1, DT: 4.5 X 17M, 3 TẦNG, HẺM 3 M SAU NHÀ.`,
+    rentDescript: `HXH 5m Nguyễn Đình Chiểu ĐaKao Quận 1,
   
       + DT: 4.5 x 17m, 3 tầng, Hẻm 3 m sau nhà.
       + Khu phố an ninh, sạch đẹp.
@@ -209,6 +209,5 @@ const RENT = [
       Vị trí nhà nào đa dạng, nhà đẹp, đảm bảo giá thấp nhất thị trường.
       Chìa khóa có sẵn do khách gửi, hỗ trợ xem nhà 24/7 miễn phí.
       Đặc biệt: Hỗ trợ hồ sơ trọn gói.`,
-    },
-  ];
-  
+  },
+];
