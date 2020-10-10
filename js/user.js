@@ -21,11 +21,14 @@ function viewUsers() {
   let userBody = document.getElementById("list-users");
   for (let i = 0; i < user.length; i++) {
     const userNum = user[i];
-    console.log(userNum);
     let displayUser = `<tr>
-                <td>${userNum.name}</td>
-                <td>${userNum.id}</span></td>
-            </tr>`;
+    <th scope="row">${i+1}</th>
+    <td>${user.name}</td>
+    <td>${user.id}</td>
+    <td>
+      <button type="button" class="btn btn-danger">Report!</button>
+    </td>
+      </tr>`;
     userBody.innerHTML += displayUser;
   }
 }
