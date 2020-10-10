@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
-    <script src="https://kit.fontawesome.com/933d5f6cc7.js" crossorigin="anonymous"></script>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/login.css" />
+    <script
+      src="https://kit.fontawesome.com/933d5f6cc7.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Form login</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="login-box">
-        <h1>Login</h1>
-        <form action="">
-            <input type="text" placeholder="Enter username">
-            <input type="password" placeholder="Enter password">
-            <input type="submit" value="SUBMIT">
-        </form>
-        <div class="check-bottom">
-            <input type="checkbox" name="remember" > Remember me 
-            <a href="#" >Forgot password ?</a>
+      <h1>Login</h1>
+      <form action="">
+        <input type="text" placeholder="Enter username" />
+        <input type="password" placeholder="Enter password" />
+        <input type="submit" value="SUBMIT" />
+      </form>
+      <div class="check-bottom row">
+        <div class="col-sm text-center">
+          <input type="checkbox" name="remember" /> Remember me
         </div>
-        <div class="socials">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
+        <div class="col-sm text-center">
+          <a href="#">Forgot password ?</a>
         </div>
-        <div class="register">
-            <span>Not a member? <a href="#" >Create an account</a>
-            </span>
-        </div>
+      </div>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+      </div>
+      <div class="register">
+        <span>Not a member? <a href="#">Create an account</a> </span>
+      </div>
     </div>
-</body>
+  </body>
 </html>
