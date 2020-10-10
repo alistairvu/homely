@@ -22,9 +22,9 @@ function viewUsers() {
   for (let i = 0; i < user.length; i++) {
     const userNum = user[i];
     let displayUser = `<tr>
-    <th scope="row">${i+1}</th>
-    <td>${user.name}</td>
-    <td>${user.id}</td>
+    <th scope="row">${i + 1}</th>
+    <td>${userNum.name}</td>
+    <td>${userNum.id}</td>
     <td>
       <button type="button" class="btn btn-danger">Report!</button>
     </td>
