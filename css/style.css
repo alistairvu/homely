@@ -3,6 +3,7 @@
   top: 0;
   width: 100%;
   background-color: white;
+  z-index: 100;
 }
 
 .navbar-brand {
@@ -50,7 +51,7 @@
   padding-bottom: 5%;
 }
 
-#intro a {
+a {
   color: black;
 }
 
@@ -86,6 +87,7 @@
 }
 
 footer {
+  margin-top: 1rem;
   padding-top: 1rem;
   background-color: whitesmoke;
 }
@@ -100,9 +102,59 @@ footer #contents {
   margin-right: 10%;
 }
 
-#house-filter {
-  background-color: whitesmoke;
+#house-results {
   margin-bottom: 1rem;
+}
+
+#house-filter {
+  margin-bottom: 1rem;
+}
+
+#house-filter-content p {
+  margin-bottom: 0;
+}
+
+#listing-info {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#poster-info {
+  display: inline-block;
+  background-color: whitesmoke;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+#poster-info p {
+  padding-bottom: 0;
+}
+
+#poster-info a {
+  color: black;
+}
+
+#reveal-btn {
+  cursor: pointer;
+}
+
+#quick-info,
+#house-filter-content {
+  background-color: whitesmoke;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.listing-description {
+  line-height: 1.2rem;
+  max-height: 3.6rem;
+  overflow: hidden;
+}
+
+#price-sort,
+#area-sort {
   padding-left: 1rem;
   padding-right: 1rem;
 }

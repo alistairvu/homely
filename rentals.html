@@ -33,13 +33,102 @@
       <!-- Results -->
       <div id="house-results" class="col-sm-9">
         <h4>Results:</h4>
-        <p>Loren ipsum</p>
+        <div class="row">
+          <div class="card col-sm-4">
+            <div class="card-body">
+              <img
+                src="https://file4.batdongsan.com.vn/resize/745x510/2020/08/21/IDHysJ7g/20200821081441-b4e0_wm.jpg"
+                class="card-img-top"
+              />
+              <h5>
+                <a href="listing-sample.html"
+                  >Cho thuê phòng 32m2 dài hạn nhà mới.</a
+                >
+              </h5>
+              <p class="brief-info">
+                Price: $1300/mo | Bedrooms: 8 <br />
+                Bathrooms: 2 | Area: 474 m<sup>2</sup>
+              </p>
+              <p style="font-family: 'Playfair Display', serif">
+                District 1, Ho Chi Minh City
+              </p>
+              <p class="listing-description">
+                Tôi chính chủ cần cho thuê nhà nguyên căn nằm ngay trung tâm
+                quận 1, thuận tiện kinh doanh, mở văn phòng, công ty,....
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
       <!-- Filter -->
       <div id="house-filter" class="col-sm-3">
-        <h4>Sort by:</h4>
-        <p>District:</p>
-        <div id="house-districts"></div>
+        <div id="house-filter-content">
+          <h4><u>Sort by:</u></h4>
+          <h5>City:</h5>
+          <label for="hanoi">
+            <input type="radio" name="cities" value="hanoi" id="hanoi" />
+            Hanoi
+          </label>
+          <br />
+          <label for="danang">
+            <input type="radio" name="cities" value="danang" id="danang" /> Da
+            Nang
+          </label>
+          <br />
+          <label for="hcmc">
+            <input type="radio" name="cities" value="hcmc" id="hcmc" /> Ho Chi
+            Minh City
+          </label>
+          <br />
+          <button
+            type="button"
+            class="text-center"
+            style="margin-top: 0.5rem; width: 60%; margin-bottom: 1rem"
+            onclick="displayDistricts()"
+          >
+            View districts
+          </button>
+          <h5>Price:</h5>
+          <div class="row" id="price-sort">
+            <input
+              class="col-sm-5"
+              type="number"
+              placeholder="Min"
+              id="min-price"
+            />
+            <p class="col-sm-2 text-center">to</p>
+            <input
+              class="col-sm-5"
+              type="number"
+              placeholder="Max"
+              id="max-price"
+            />
+          </div>
+          <h5>Area:</h5>
+          <div class="row" id="area-sort">
+            <input
+              class="col-sm-5"
+              type="number"
+              placeholder="Min"
+              id="min-area"
+            />
+            <p class="col-sm-2 text-center">to</p>
+            <input
+              class="col-sm-5"
+              type="number"
+              placeholder="Max"
+              id="max-area"
+            />
+            <br />
+            <button
+              type="button"
+              class="text-center"
+              style="margin-top: 1rem; width: 30%"
+            >
+              Sort
+            </button>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Footer -->
