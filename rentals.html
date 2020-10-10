@@ -64,23 +64,50 @@
       <div id="house-filter" class="col-sm-3">
         <div id="house-filter-content">
           <h4>Sort by:</h4>
-          <p>City:</p>
-          <ul>
-            <li>
-              <label for="hanoi"
-                ><input type="radio" name="city" value="Hanoi" />Hanoi</label
-              >
-            </li>
-            <li>
-              <label for="Danang">
-                <span><input type="radio" name="city" value="Danang" /></span
-                >Danang
-              </label>
-            </li>
-            <li>Ho Chi Minh City</li>
-          </ul>
-          <p>Price:</p>
-          <p>Area:</p>
+          <h5><u>City:</u></h5>
+          <label for="hanoi">
+            <input type="radio" name="cities" value="hanoi" /> Hanoi
+          </label>
+          <br />
+          <label for="danang">
+            <input type="radio" name="cities" value="danang" /> Da Nang
+          </label>
+          <br />
+          <label for="hcmc">
+            <input type="radio" name="cities" value="hcmc" /> Ho Chi Minh City
+          </label>
+          <h5><u>Price:</u></h5>
+          <div class="row" id="price-sort">
+            <input
+              class="col-sm-5"
+              type="number"
+              placeholder="Min"
+              id="min-price"
+            />
+            <p class="col-sm-2">–</p>
+            <input
+              class="col-sm-5"
+              type="number"
+              placeholder="Max"
+              id="max-price"
+            />
+          </div>
+          <h5><u>Area:</u></h5>
+          <div class="row" id="area-sort">
+            <input
+              class="col-sm-5"
+              type="number"
+              placeholder="Min"
+              id="min-area"
+            />
+            <p class="col-sm-2">–</p>
+            <input
+              class="col-sm-5"
+              type="number"
+              placeholder="Max"
+              id="max-area"
+            />
+          </div>
         </div>
       </div>
     </div>

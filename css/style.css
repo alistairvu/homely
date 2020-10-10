@@ -110,6 +110,10 @@ footer #contents {
   margin-bottom: 1rem;
 }
 
+#house-filter-content p {
+  margin-bottom: 0;
+}
+
 #listing-info {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -147,4 +151,10 @@ footer #contents {
   line-height: 1.2rem;
   max-height: 3.6rem;
   overflow: hidden;
+}
+
+#price-sort,
+#area-sort {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

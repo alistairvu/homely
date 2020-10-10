@@ -50,13 +50,13 @@ h5 {
   text-align: center;
 }
 
-input {
+#email-address {
   width: 800px;
   height: 2rem;
 }
 
 @media (max-width: 1000px) {
-  input {
+  #email-address {
     width: 80%;
   }
 }
