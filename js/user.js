@@ -22,11 +22,11 @@ function viewUsers() {
   for (let i = 0; i < user.length; i++) {
     const userNum = user[i];
     let displayUser = `<tr>
-    <th scope="row">${i + 1}</th>
+    <th scope="row">${i+1}</th>
     <td>${userNum.name}</td>
     <td>${userNum.id}</td>
     <td>
-      <button type="button" class="btn btn-danger">Report!</button>
+      <button type="button" class="btn btn-danger " onclick = "reportUser()">Report!</button>
     </td>
       </tr>`;
     userBody.innerHTML += displayUser;
@@ -34,3 +34,13 @@ function viewUsers() {
 }
 
 viewUsers();
+
+
+function reportUser() {
+  if(confirm("Choose a button")){
+    alert('Report sent!');
+  }
+  else{
+    alert('Cancel done!')
+  }
+}
