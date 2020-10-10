@@ -6,13 +6,19 @@
     <h1 id="head1">THÔNG TIN CƠ BẢN</h1>
     <body>
       <form action="#" id="form1">
-      <label> <strong>TIÊU ĐỀ:(<font color="red">*</font>)</strong>  <input id="body1" type="text" name="TEXT" placeholder="Tiêu Đề " required></label>
-      <label >Hình Thức(<font color="red">*</font>)</label>
-      <select  id="housePick" required>
-        <option >---Hình Thức---</option>
-        <option id="house" >NHÀ CHO THUÊ</option>
-        <option id="house">NHÀ BÁN</option>
-      </select>
+      <div class="row">
+        <div class="col-sm">
+          <label> <strong>TIÊU ĐỀ:(<font color="red">*</font>)</strong>  <input id="body1" type="text" name="TEXT" placeholder="Tiêu Đề " required></label>
+        </div>
+        <div class="col-sm">
+          <label >Hình Thức(<font color="red">*</font>)</label>
+          <select  id="housePick" required>
+            <option >---Hình Thức---</option>
+              <option class="house" >NHÀ CHO THUÊ</option>
+              <option class="house">NHÀ BÁN</option>
+          </select>
+        </div>
+      </div>
       <br> <br> <br>
       <label >Tỉnh/Thành Phố(<font color="red">*</font>)</label>
       <select  id="cityPick" required>
