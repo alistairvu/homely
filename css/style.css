@@ -3,6 +3,7 @@
   top: 0;
   width: 100%;
   background-color: white;
+  z-index: 100;
 }
 
 .navbar-brand {
@@ -50,7 +51,7 @@
   padding-bottom: 5%;
 }
 
-#intro a {
+a {
   color: black;
 }
 
@@ -101,8 +102,16 @@ footer #contents {
   margin-right: 10%;
 }
 
+#house-results {
+  margin-bottom: 1rem;
+}
+
 #house-filter {
   margin-bottom: 1rem;
+}
+
+#house-filter-content p {
+  margin-bottom: 0;
 }
 
 #listing-info {
@@ -134,6 +143,18 @@ footer #contents {
 #quick-info,
 #house-filter-content {
   background-color: whitesmoke;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.listing-description {
+  line-height: 1.2rem;
+  max-height: 3.6rem;
+  overflow: hidden;
+}
+
+#price-sort,
+#area-sort {
   padding-left: 1rem;
   padding-right: 1rem;
 }
