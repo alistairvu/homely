@@ -1,6 +1,6 @@
-import { RENT } from "./rentdata.js";
+import { HOUSE } from "./housedata.js";
 
-const limit = RENT.length;
+const limit = HOUSE.length;
 const houseResults = document.getElementById("house-results");
 
 document.getElementById("listing-number").innerHTML = limit;
@@ -9,21 +9,21 @@ for (let i = 0; i < limit; i += 3) {
   let listingHTML = ``;
   for (let j = i; j < i + 3; j++) {
     if (j < limit) {
-      let listing = RENT[j];
+      let listing = HOUSE[j];
       listingHTML += `
       <div class="card col-sm-4">
         <div class="card-body">
-          <img src="${listing.rentImg} class="card-img-top"/>
-          <h5 class="listing-title"> <a href="listing-sample.html"> ${listing.rentTitle}</a> </h5>
+          <img src="${listing.houseImg} class="card-img-top"/>
+          <h5 class="listing-title"> <a href="listing-sample.html"> ${listing.houseTitle}</a> </h5>
           <p class="brief-info">
-            Price: $${listing.rentPrice}/mo | Bedrooms: ${listing.rentBedroom} <br />
-            Bathrooms: ${listing.rentBathroom} | Area: ${listing.rentSquare} m<sup>2</sup>
+            Price: VND ${listing.housePrice} bil | Bedrooms: ${listing.houseBedroom} <br />
+            Bathrooms: ${listing.houseBathroom} | Area: ${listing.houseSquare} m<sup>2</sup>
           </p>
           <p style="font-family: 'Playfair Display', serif">
-            ${listing.rentAddDis}, ${listing.rentAddCity}
+            ${listing.houseAddDis}, ${listing.houseAddCity}
           </p>
           <p class="listing-description">
-            ${listing.rentDescript}
+            ${listing.houseDescript}
           </p>
           </div>
         </div>
