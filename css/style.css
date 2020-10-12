@@ -163,3 +163,9 @@ form {
   margin-left: 20%;
   margin-right: 20%;
 }
+
+.listing-title {
+  line-height: 1.5rem;
+  max-height: 3rem;
+  overflow: hidden;
+}

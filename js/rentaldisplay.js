@@ -7,7 +7,7 @@ for (let i = 0; i < limit; i += 3) {
   let listingHTML = ``;
   for (let j = i; j < i + 3; j++) {
     if (j < limit) {
-      let listing = RENT[i];
+      let listing = RENT[j];
       listingHTML += `
       <div class="card col-sm-4">
         <div class="card-body">
