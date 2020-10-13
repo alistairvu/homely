@@ -13,17 +13,15 @@ for (let i = 0; i < limit; i += 3) {
       listingHTML += `
       <div class="card col-sm-4">
         <div class="card-body">
-          <img src="${listing.rentImg} class="card-img-top"/>
+          <img src="${listing.rentImg}" class="card-img-top"/>
           <h5 class="listing-title"> <a href="listing-sample.html"> ${listing.rentTitle}</a> </h5>
           <p class="brief-info">
-            Price: $${listing.rentPrice}/mo | Bedrooms: ${listing.rentBedroom} <br />
+            Price: ${listing.rentPrice}m/mo | Bedrooms: ${listing.rentBedroom} <br />
             Bathrooms: ${listing.rentBathroom} | Area: ${listing.rentSquare} m<sup>2</sup>
           </p>
           <p style="font-family: 'Playfair Display', serif">
+            ${listing.rentAddress}
             ${listing.rentAddDis}, ${listing.rentAddCity}
-          </p>
-          <p class="listing-description">
-            ${listing.rentDescript}
           </p>
           </div>
         </div>

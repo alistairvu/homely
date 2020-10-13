@@ -1,34 +1,34 @@
-import { rent } from "./rentdata.js";
+import { house } from "./housedata.js";
 
 const sortBtn = document.getElementById("sort-btn");
-const limit = rent.length;
+const limit = house.length;
 console.log(limit);
 
 // Sort by city
 function districtSort() {
   let arr = [];
   for (let i = 0; i < limit; i++) {
-    let listing = rent[i];
+    let listing = house[i];
     if (document.getElementById("hanoi").checked) {
       if (
         (document.getElementById("thanhxuan").checked &&
-          listing.rentAddDis == "Thanh Xuân") ||
+          listing.houseAddDis == "Thanh Xuân") ||
         (document.getElementById("hoankiem").checked &&
-          listing.rentAddDis == "Hoàn Kiếm")
+          listing.houseAddDis == "Hoàn Kiếm")
       ) {
         arr.push(i);
-      } else if (listing.rentAddCity == "Hà Nội") {
+      } else if (listing.houseAddCity == "Hà Nội") {
         arr.push(i);
       }
     } else if (document.getElementById("hcmc").checked) {
       if (
         (document.getElementById("district-1") &&
-          listing.rentAddDis == "Quận 1") ||
+          listing.houseAddDis == "Quận 1") ||
         (document.getElementById("district-2").checked &&
-          listing.rentAddDis == "Quận 2")
+          listing.houseAddDis == "Quận 2")
       ) {
         arr.push(i);
-      } else if (listing.rentAddCity == "Hồ Chí Minh") {
+      } else if (listing.houseAddCity == "Hồ Chí Minh") {
         arr.push(i);
       }
     }
@@ -54,15 +54,15 @@ function priceSort() {
   }
   let arr = [];
   for (let i of sortArr) {
-    let listing = rent[i];
-    if (minPrice.value.length > 0 && minPrice.value <= listing.rentPrice) {
-      if (maxPrice.value.length > 0 && maxPrice.value >= listing.rentPrice) {
+    let listing = house[i];
+    if (minPrice.value.length > 0 && minPrice.value <= listing.housePrice) {
+      if (maxPrice.value.length > 0 && maxPrice.value >= listing.housePrice) {
         arr.push(i);
       } else {
         arr.push(i);
       }
     } else {
-      if (maxPrice.value >= listing.rentPrice) {
+      if (maxPrice.value >= listing.housePrice) {
         arr.push(i);
       }
     }
@@ -88,15 +88,15 @@ function areaSort() {
   }
   let arr = [];
   for (let i of sortArr) {
-    let listing = rent[i];
-    if (minArea.value.length > 0 && minArea.value <= listing.rentSquare) {
-      if (maxArea.value.length > 0 && maxArea.value >= listing.rentSquare) {
+    let listing = house[i];
+    if (minArea.value.length > 0 && minArea.value <= listing.houseSquare) {
+      if (maxArea.value.length > 0 && maxArea.value >= listing.houseSquare) {
         arr.push(i);
       } else {
         arr.push(i);
       }
     } else {
-      if (maxArea.value >= listing.rentSquare) {
+      if (maxArea.value >= listing.houseSquare) {
         arr.push(i);
       }
     }
@@ -106,7 +106,7 @@ function areaSort() {
 
 // display sorted listings!!
 
-function rentalSort() {
+function housealSort() {
   let arr = areaSort();
   let limit = arr.length;
   if (limit == 0) {
@@ -121,19 +121,19 @@ function rentalSort() {
     let listingHTML = ``;
     for (let j = i; j < i + 3; j++) {
       if (j < limit) {
-        let listing = rent[arr[j]];
+        let listing = house[arr[j]];
         listingHTML += `
         <div class="card col-sm-4">
           <div class="card-body">
-            <img src="${listing.rentImg}" class="card-img-top"/>
-            <h5 class="listing-title"> <a href="listing-sample.html"> ${listing.rentTitle}</a> </h5>
+            <img src="${listing.houseImg}" class="card-img-top"/>
+            <h5 class="listing-title"> <a href="listing-sample.html"> ${listing.houseTitle}</a> </h5>
             <p class="brief-info">
-              Price: ${listing.rentPrice}m/mo | Bedrooms: ${listing.rentBedroom} <br />
-              Bathrooms: ${listing.rentBathroom} | Area: ${listing.rentSquare} m<sup>2</sup>
+              Price: ${listing.housePrice}bil | Bedrooms: ${listing.houseBedroom} <br />
+              Bathrooms: ${listing.houseBathroom} | Area: ${listing.houseSquare} m<sup>2</sup>
             </p>
             <p style="font-family: 'Playfair Display', serif">
-              ${listing.rentAddress}
-              ${listing.rentAddDis}, ${listing.rentAddCity}
+              ${listing.houseAddress}
+              ${listing.houseAddDis}, ${listing.houseAddCity}
             </p>
             </div>
           </div>
@@ -148,4 +148,4 @@ function rentalSort() {
 }
 
 // Add event listener
-sortBtn.addEventListener("click", rentalSort);
+sortBtn.addEventListener("click", housealSort);
