@@ -12,7 +12,6 @@
     <title>Homely: Rentals</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="shortcut icon" href="favicon.ico" />
   </head>
   <body>
     <!-- Navigation bar -->
@@ -26,7 +25,7 @@
     </nav>
     <!-- Introduction text -->
     <div id="intro">
-      <h1><span id="listing-number"></span> rental listings for you.</h1>
+      <h1><span id="listing-number">300</span> rental listings for you.</h1>
       <p>Use the filter below to narrow down your search.</p>
     </div>
     <!-- Search and display-->
@@ -41,28 +40,35 @@
           <h4><u>Sort by:</u></h4>
           <h5>City:</h5>
           <label for="hanoi">
-            <input type="radio" name="cities" value="hanoi" id="hanoi" />
+            <input
+              type="radio"
+              name="cities"
+              value="hanoi"
+              id="hanoi"
+              onclick="displayDistricts()"
+            />
             Hanoi
           </label>
           <br />
-          <label for="danang">
-            <input type="radio" name="cities" value="danang" id="danang" /> Da
-            Nang
-          </label>
-          <br />
           <label for="hcmc">
-            <input type="radio" name="cities" value="hcmc" id="hcmc" /> Ho Chi
-            Minh City
+            <input
+              type="radio"
+              name="cities"
+              value="hcmc"
+              id="hcmc"
+              onclick="displayDistricts()"
+            />
+            Ho Chi Minh City
           </label>
           <br />
-          <button
+          <!-- <button
             type="button"
             class="text-center"
             style="margin-top: 0.5rem; width: 60%; margin-bottom: 1rem"
             onclick="displayDistricts()"
           >
             Select districts
-          </button>
+          </button> -->
           <div id="display-districts"></div>
           <h5>Price:</h5>
           <div class="row" id="price-sort">
@@ -100,6 +106,7 @@
               type="button"
               class="text-center"
               style="margin-top: 1rem; width: 30%"
+              id="sort-btn"
             >
               Sort
             </button>
@@ -120,5 +127,6 @@
     </footer>
   </body>
   <script type="module" src="js/rentaldisplay.js"></script>
+  <script type="module" src="js/rental-sort.js"></script>
   <script src="js/district-display.js"></script>
 </html>

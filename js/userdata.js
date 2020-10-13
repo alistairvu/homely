@@ -1,4 +1,4 @@
-const user = [
+export const user = [
   {
     name: "User1",
     password: "blabla",
@@ -20,3 +20,4 @@ const user = [
     id: 4,
   },
 ];
+
