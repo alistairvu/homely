@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+body{
+    margin: 0;
+    padding: 0;
+    background:white ;
+}
+.register-box{
+    width: 600px;
+    height: 600px;
+    color: black;
+    background: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 30px;
+    text-align: center;
+
+}
+h1{
+    margin: 40px 0px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color:#3867d6;
+    font-family: "Epilogue", sans-serif;
+    text-transform: uppercase;
+}
+.register-box input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;  
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.register-box label {
+    float: left;
+}
+.register-box input[type=submit]{
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 40px;
+    background:#45aaf2 ;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .register-box a {
+    font-size: 14px;
+    text-decoration: none;
+    color:#3867d6;
+    opacity: 0.8;
+  }
