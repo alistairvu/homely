@@ -134,9 +134,6 @@ function rentalSort() {
             <p style="font-family: 'Playfair Display', serif">
               ${listing.rentAddDis}, ${listing.rentAddCity}
             </p>
-            <p class="listing-description">
-              ${listing.rentDescript}
-            </p>
             </div>
           </div>
         `;

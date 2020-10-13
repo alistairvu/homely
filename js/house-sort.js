@@ -134,9 +134,6 @@ function housealSort() {
             <p style="font-family: 'Playfair Display', serif">
               ${listing.houseAddDis}, ${listing.houseAddCity}
             </p>
-            <p class="listing-description">
-              ${listing.houseDescript}
-            </p>
             </div>
           </div>
         `;

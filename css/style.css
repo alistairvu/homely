@@ -147,12 +147,6 @@ footer #contents {
   padding-right: 1rem;
 }
 
-.listing-description {
-  line-height: 1.2rem;
-  max-height: 3.6rem;
-  overflow: hidden;
-}
-
 #price-sort,
 #area-sort {
   padding-left: 1rem;

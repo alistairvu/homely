@@ -22,9 +22,6 @@ for (let i = 0; i < limit; i += 3) {
           <p style="font-family: 'Playfair Display', serif">
             ${listing.houseAddDis}, ${listing.houseAddCity}
           </p>
-          <p class="listing-description">
-            ${listing.houseDescript}
-          </p>
           </div>
         </div>
       `;
