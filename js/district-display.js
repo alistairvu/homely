@@ -4,9 +4,6 @@ function displayDistricts() {
   if (document.getElementById("hanoi").checked) {
     districtDisplay.innerHTML = `
     <h5>Districts:</h5>
-    <label for="caugiay">
-      <input type="checkbox" name="districts-hn" id="caugiay"> Cầu Giấy
-    </label> <br>
     <label for="thanhxuan">
       <input type="checkbox" name="districts-hn" id="thanhxuan"> Thanh Xuân
     </label> <br>
