@@ -36,6 +36,7 @@
             <label>
               Title(<font color="red">*</font>):<br />
               <input
+                id="title"
                 class="listing-input"
                 type="text"
                 placeholder="Title "
@@ -44,7 +45,7 @@
           </div>
           <div class="col-sm">
             <label>Rental or Sale?(<font color="red">*</font>):</label><br />
-            <select class="listing-input" required>
+            <select id="rentSale" class="listing-input" required>
               <option>Select</option>
               <option class="house">Rental</option>
               <option class="house">For Sale</option>
@@ -93,7 +94,56 @@
             />
           </div>
         </div>
-      </div>
+        <!--Row 4-->
+        <div class="row">
+         <div class="col-sm">
+            <label>Bedroom(<font color="red">*</font>)</label><br>
+            <input 
+               id="Bedroom"
+               type="text" 
+               name="search"
+               placeholder=""
+               class="listing-input"
+               required
+            /> 
+          </div>
+          <div class="col-sm">
+               <label>Bathroom(<font color="red">*</font>)</label><br>
+               <input 
+               id="bathRoom"
+               type="text"
+               name="search"
+               placeholder=""
+               class="listing-input"
+               required
+            />     
+          </div>
+        </div>
+        <!--Row 5-->
+        <div class="row">
+          <div class="col-sm">
+             <label>Address(<font color="red">*</font>)</label><br>
+             <input 
+                id="address"
+                type="text" 
+                name="search"
+                placeholder=""
+                class="listing-input"
+                required
+             /> 
+           </div>
+           <div class="col-sm">
+                <label>Floor(<font color="red">*</font>)</label><br>
+                <input 
+                id="floor"
+                type="text"
+                name="search"
+                placeholder=""
+                class="listing-input"
+                required
+             />     
+           </div>
+        </div>
       <!--Images-->
       <div id="images">
         <h1>Images</h1>
@@ -101,22 +151,25 @@
           Upload your images here. Listings with images have 10x viewership and
           5x contact rate compared to listings without images.
         </p>
-        <input type="file" name="my_file[]" />
+        <input id="images" type="file" name="my_file[]" />
       </div>
+      <!--Description-->
+        <h1>DESCRIPTION</h1>
+         <textarea name="description" id="description" cols="50" rows="5" form="usrform">Enter Text Here...</textarea>
       <!--Contact information-->
       <div id="contact-info">
         <h1 id="head3">Contact information:</h1>
-        <div class="row">
-          <div class="col-sm">
+      <div class="row">
+        <div class="col-sm">
             Contact name:<br />
             <input type="text" placeholder="" />
-          </div>
-          <div class="col-sm">Phone number: <br /><input type="text" /></div>
+        </div>
+      <div class="col-sm" id="phoneNumber">Phone number: <br /><input type="text" /></div>
           <div class="col-sm">
             Email:<br />
             <input type="email" />
-          </div>
-        </div>
+      </div>
+      </div>
         <button type="submit" name="submit">Submit</button>
       </div>
     </form>
@@ -132,5 +185,7 @@
       </div>
     </footer>
   </body>
+  <script  type="module" src="js/add-data.js"></script>
   <script src="js/listing-upload.js"></script>
+  
 </html>
