@@ -10,6 +10,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+
     <script
       src="https://kit.fontawesome.com/933d5f6cc7.js"
       crossorigin="anonymous"
@@ -18,12 +20,16 @@
     <link rel="shortcut icon" href="favicon.ico" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <a href="#" class="navbar-brand">Homely</a>
+    </nav>
     <div class="login-box">
       <h1>Login</h1>
       <form action="">
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
-        <input type="submit" value="SUBMIT" />
+        <input type="text" id="username" placeholder="Username" />
+        <input type="password" id="password" placeholder="Password" />
+        <p id="loginError" class="d-none text-danger">Username and password require</p>
+        <input type="submit" id="submit-btn" onclick="formSubmit()" value="SUBMIT" />
       </form>
       <div class="check-bottom row">
         <div class="col-sm text-center">
@@ -41,5 +47,8 @@
         <span>Not a member? <a href="#">Create an account</a> </span>
       </div>
     </div>
+    <script src="/js/event.js"></script>
+    <script src="/js/userdata.js"></script>
+
   </body>
 </html>
