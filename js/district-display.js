@@ -1,5 +1,6 @@
 const districtDisplay = document.getElementById("display-districts");
 
+// function
 function displayDistricts() {
   if (document.getElementById("hanoi").checked) {
     districtDisplay.innerHTML = `
@@ -11,6 +12,15 @@ function displayDistricts() {
       <input type="checkbox" name="districts-hn" id="hoankiem"> Hoàn Kiếm
     </label>
     `;
+  } else if (document.getElementById("hcmc").checked) {
+    districtDisplay.innerHTML = `
+    <h5>Districts:</h5>
+    <label for="district-1">
+      <input type="checkbox" name="districts-hcmc" id="district-1"> Quận 1
+    </label> <br>
+    <label for="districts-2">
+      <input type="checkbox" name="districts-hcmc" id="district-2"> Quận 2
+    </label>`;
   } else if (document.getElementById("danang").checked) {
     districtDisplay.innerHTML = `
     <h5>Districts:</h5>
@@ -21,15 +31,6 @@ function displayDistricts() {
       <input type="checkbox" name="districts-dn" id="haichau"> Hải Châu
     </label>
     `;
-  } else if (document.getElementById("hcmc").checked) {
-    districtDisplay.innerHTML = `
-    <h5>Districts:</h5>
-    <label for="district-1">
-      <input type="checkbox" name="districts-hcmc" id="district-1"> Quận 1
-    </label> <br>
-    <label for="districts-2">
-      <input type="checkbox" name="districts-hcmc" id="district-2"> Quận 2
-    </label>`;
   } else {
     districtDisplay.innerHTML = `
     Please select a city.`;
