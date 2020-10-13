@@ -1,4 +1,4 @@
-export const RENT = [
+export const rent = [
   {
     rentid: 1,
     rentImg:
