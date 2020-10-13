@@ -15,7 +15,7 @@ body{
     transform: translate(-50%, -50%);
     box-sizing: border-box;
     border-radius: 10px;
-    border:grey 1px solid;
+    border:black 2px solid;
     text-align: center;
   } 
   
@@ -25,7 +25,7 @@ body{
       font-weight: bold;
       text-align: center;
       color:#3867d6;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: "Epilogue", sans-serif;
       text-transform: uppercase;
   }
   .login-box input{

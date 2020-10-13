@@ -9,32 +9,37 @@
       integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/registration.css">
-    <title>Registration Box</title>
+    <title>Homely: Register</title>
+    <link rel="shortcut icon" href="favicon.ico" />
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <a href="index.html" class="navbar-brand">Homely</a>
+    </nav>
     <div class="register-box">
         <h1>Create an Account</h1>
         <form action="">
-            <label for="name">Username</label>
+            <label for="name">Username(<font color="red">*</font>)</label>
           <input type="text" id="name" placeholder="Username" /> <br>
-          <label for="email">Email address</label>
+          <label for="email">Email address(<font color="red">*</font>)</label>
           <input type="email" id="mail" placeholder="Email address" /> <br>
-          <label for="fname"> Full name</label>
+          <label for="fname"> Full name(<font color="red">*</font>)</label>
           <input type="text" id="full-name" placeholder="Full name" /> <br>
-          <label for="password">Password</label>
+          <label for="password">Password(<font color="red">*</font>)</label>
           <input type="password" id="pass" placeholder="Password" /> <br>
-          <label for="password"> Re-enter password</label>
+          <label for="password"> Re-enter password(<font color="red">*</font>)</label>
           <input type="password" placeholder="Re-enter the password" /> <br>
-          <label for="date">Date of birth</label>
+          <label for="date">Date of birth(<font color="red">*</font>)</label>
           <input type="date" id="date"  /> <br>
           <input type="submit" id="create-btn" value="Create account">
-        </form>
-        
+        </form>        
             <div class="notice">
                 <p class="policy">
                     By clicking Create account, you agree to our <a href="#">Terms</a>
-                    and <a href="#"> Privacy policy.</a>
+                    and <a href="#"> Privacy policy</a>.
                 </p>
             </div>
     </div>
