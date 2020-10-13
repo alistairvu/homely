@@ -20,6 +20,7 @@ for (let i = 0; i < limit; i += 3) {
             Bathrooms: ${listing.houseBathroom} | Area: ${listing.houseSquare} m<sup>2</sup>
           </p>
           <p style="font-family: 'Playfair Display', serif">
+            ${listing.houseAddress} <br>
             ${listing.houseAddDis}, ${listing.houseAddCity}
           </p>
           </div>

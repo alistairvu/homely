@@ -132,6 +132,7 @@ function housealSort() {
               Bathrooms: ${listing.houseBathroom} | Area: ${listing.houseSquare} m<sup>2</sup>
             </p>
             <p style="font-family: 'Playfair Display', serif">
+              ${listing.houseAddress}
               ${listing.houseAddDis}, ${listing.houseAddCity}
             </p>
             </div>

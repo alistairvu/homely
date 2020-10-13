@@ -132,6 +132,7 @@ function rentalSort() {
               Bathrooms: ${listing.rentBathroom} | Area: ${listing.rentSquare} m<sup>2</sup>
             </p>
             <p style="font-family: 'Playfair Display', serif">
+              ${listing.rentAddress}
               ${listing.rentAddDis}, ${listing.rentAddCity}
             </p>
             </div>
