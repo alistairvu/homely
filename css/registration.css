@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: whitesmoke;
 }
 
@@ -11,21 +9,38 @@ body {
   height: 600px;
   color: black;
   background: white;
-  top: 50%;
+  top: 400px;
   left: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
   border: 2px solid black;
-  text-align: center;
-  align-content: center;
+  position: relative;
+  /* text-align: center; */
+}
+
+@media (max-width: 450px) {
+  .register-box {
+    width: 100%;
+    right: 0%;
+  }
 }
 
 h1 {
-  margin: 20px 0px;
+  margin-top: 20px;
   font-size: 28px;
   font-weight: bold;
   text-align: center;
+}
+
+#register-form {
+  margin-left: 75px;
+}
+
+@media (max-width: 450px) {
+  #register-form {
+    margin-left: calc((100% - 300px) / 2);
+  }
 }
 
 .register-box input {
@@ -34,33 +49,37 @@ h1 {
   margin-bottom: 10px;
   border: 2px solid grey;
   border-radius: 5px;
-  padding-left: 10px;
+  padding: 10px;
 }
 
 .register-box label {
   float: left;
-  margin-left: 20px;
 }
 
 .register-box input[type="submit"] {
-  border: none;
-  outline: none;
+  border: 2px solid black;
   width: 200px;
   height: 40px;
-  background: #45aaf2;
-  color: white;
+  color: black;
+  background-color: white;
   cursor: pointer;
   font-weight: bold;
+  margin-left: 50px;
+}
+
+.register-box input[type="submit"]:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: black;
 }
 
 .register-box a {
-  font-size: 14px;
+  font-weight: bold;
   text-decoration: none;
-  color: #3867d6;
-  opacity: 0.8;
 }
 
 .policy {
+  text-align: center;
   margin-left: 5%;
   margin-right: 5%;
 }
