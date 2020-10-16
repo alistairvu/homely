@@ -1,4 +1,4 @@
-export const HOUSE = [
+export const house = [
   {
     houseid: 1,
     houseImg:

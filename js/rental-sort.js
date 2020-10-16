@@ -4,32 +4,48 @@ const sortBtn = document.getElementById("sort-btn");
 const limit = rent.length;
 console.log(limit);
 
+// Variables for city
+const hanoi = document.getElementById("hanoi");
+const hcmc = document.getElementById("hcmc");
+
 // Sort by city
 function districtSort() {
   let arr = [];
   for (let i = 0; i < limit; i++) {
     let listing = rent[i];
-    if (document.getElementById("hanoi").checked) {
+    if (hanoi.checked) {
+      const thanhxuan = document.getElementById("thanhxuan");
+      const hoankiem = document.getElementById("hoankiem");
       if (
-        (document.getElementById("thanhxuan").checked &&
-          listing.rentAddDis == "Thanh Xuân") ||
-        (document.getElementById("hoankiem").checked &&
-          listing.rentAddDis == "Hoàn Kiếm")
+        !thanhxuan.checked &&
+        !hoankiem.checked &&
+        listing.rentAddCity == "Hà Nội"
       ) {
-        arr.push(i);
-      } else if (listing.rentAddCity == "Hà Nội") {
-        arr.push(i);
+        arr.push(listing);
+      } else {
+        if (thanhxuan.checked && listing.rentAddDis == "Thanh Xuân") {
+          arr.push(listing);
+        }
+        if (hoankiem.checked && listing.rentAddDis == "Hoàn Kiếm") {
+          arr.push(listing);
+        }
       }
-    } else if (document.getElementById("hcmc").checked) {
+    } else if (hcmc.checked) {
+      const district1 = document.getElementById("district-1");
+      const district2 = document.getElementById("district-2");
       if (
-        (document.getElementById("district-1") &&
-          listing.rentAddDis == "Quận 1") ||
-        (document.getElementById("district-2").checked &&
-          listing.rentAddDis == "Quận 2")
+        !district1.checked &&
+        !district2.checked &&
+        listing.rentAddCity == "Hồ Chí Minh"
       ) {
-        arr.push(i);
-      } else if (listing.rentAddCity == "Hồ Chí Minh") {
-        arr.push(i);
+        arr.push(listing);
+      } else {
+        if (district1.checked && listing.rentAddDis == "Quận 1") {
+          arr.push(listing);
+        }
+        if (district2.checked && listing.rentAddDis == "Quận 2") {
+          arr.push(listing);
+        }
       }
     }
   }
@@ -39,89 +55,61 @@ function districtSort() {
 // Sort by price range
 const minPrice = document.getElementById("min-price");
 const maxPrice = document.getElementById("max-price");
+const minArea = document.getElementById("min-area");
+const maxArea = document.getElementById("max-area");
 
-function priceSort() {
+function priceAreaSort() {
   let sortArr = [];
   if (districtSort().length == 0) {
     for (let i = 0; i < limit; i++) {
-      sortArr.push(i);
+      sortArr.push(rent[i]);
     }
   } else {
     sortArr = districtSort();
   }
-  if (maxPrice.value.length == 0 && minPrice.value.length == 0) {
-    return sortArr;
-  }
-  let arr = [];
-  for (let i of sortArr) {
-    let listing = rent[i];
-    if (minPrice.value.length > 0 && minPrice.value <= listing.rentPrice) {
-      if (maxPrice.value.length > 0 && maxPrice.value >= listing.rentPrice) {
-        arr.push(i);
-      } else {
-        arr.push(i);
-      }
-    } else {
-      if (maxPrice.value >= listing.rentPrice) {
-        arr.push(i);
-      }
-    }
-  }
-  return arr;
-}
 
-// sort by area
-const minArea = document.getElementById("min-area");
-const maxArea = document.getElementById("max-area");
+  if (minPrice.value.length > 0) {
+    sortArr = sortArr.filter((x) => x.rentPrice >= minPrice.value);
+  }
+  if (maxPrice.value.length > 0) {
+    sortArr = sortArr.filter((x) => x.rentPrice <= maxPrice.value);
+  }
 
-function areaSort() {
-  let sortArr = [];
-  if (priceSort().length == 0) {
-    for (let i = 0; i < limit; i++) {
-      sortArr.push(i);
-    }
-  } else {
-    sortArr = priceSort();
+  if (minArea.value.length > 0) {
+    sortArr = sortArr.filter((x) => x.rentSquare >= minArea.value);
   }
-  if (minArea.value.length == 0 && maxArea.value.length == 0) {
-    return sortArr;
+  if (maxArea.value.length > 0) {
+    sortArr = sortArr.filter((x) => x.rentSquare <= maxArea.value);
   }
-  let arr = [];
-  for (let i of sortArr) {
-    let listing = rent[i];
-    if (minArea.value.length > 0 && minArea.value <= listing.rentSquare) {
-      if (maxArea.value.length > 0 && maxArea.value >= listing.rentSquare) {
-        arr.push(i);
-      } else {
-        arr.push(i);
-      }
-    } else {
-      if (maxArea.value >= listing.rentSquare) {
-        arr.push(i);
-      }
-    }
-  }
-  return arr;
+  console.log(sortArr);
+  return sortArr;
 }
 
 // display sorted listings!!
 
 function rentalSort() {
-  let arr = areaSort();
+  let arr = priceAreaSort();
   let limit = arr.length;
+  const houseResults = document.getElementById("house-results");
   if (limit == 0) {
     document.getElementById("listing-number").innerHTML = "No";
-    houseResults.innerHTML = "<h4><u>No results.</u></h4>";
+    houseResults.innerHTML =
+      "<h4><u>No results.</u></h4><br><p>Please try again.</p>";
     return;
   }
-  document.getElementById("listing-number").innerHTML = limit;
-  const houseResults = document.getElementById("house-results");
+  if (limit == 1) {
+    document.getElementById(
+      "listing-intro"
+    ).innerHTML = `1 rental listing for you.`;
+  } else {
+    document.getElementById("listing-number").innerHTML = limit;
+  }
   houseResults.innerHTML = "<h4><u>Results:</u></h4>";
   for (let i = 0; i < limit; i += 3) {
     let listingHTML = ``;
     for (let j = i; j < i + 3; j++) {
       if (j < limit) {
-        let listing = rent[arr[j]];
+        let listing = arr[j];
         listingHTML += `
         <div class="card col-sm-4">
           <div class="card-body">
@@ -132,7 +120,7 @@ function rentalSort() {
               Bathrooms: ${listing.rentBathroom} | Area: ${listing.rentSquare} m<sup>2</sup>
             </p>
             <p style="font-family: 'Playfair Display', serif">
-              ${listing.rentAddress}
+              ${listing.rentAddress} <br>
               ${listing.rentAddDis}, ${listing.rentAddCity}
             </p>
             </div>
@@ -145,6 +133,7 @@ function rentalSort() {
     ${listingHTML}
     </div>`;
   }
+  return;
 }
 
 // Add event listener

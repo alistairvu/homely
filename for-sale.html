@@ -9,7 +9,7 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=s, initial-scale=1.0" />
-    <title>Homely: Rentals</title>
+    <title>Homely: For Sale</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="shortcut icon" href="favicon.ico" />
@@ -26,7 +26,9 @@
     </nav>
     <!-- Introduction text -->
     <div id="intro">
-      <h1><span id="listing-number"></span> houses on sale for you.</h1>
+      <h1 id="house-intro">
+        <span id="listing-number"></span> houses on sale for you.
+      </h1>
       <p>Use the filter below to narrow down your search.</p>
     </div>
     <!-- Search and display-->
@@ -110,6 +112,7 @@
               type="button"
               class="text-center"
               style="margin-top: 1rem; width: 30%"
+              id="sort-btn"
             >
               Sort
             </button>

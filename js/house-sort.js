@@ -4,32 +4,66 @@ const sortBtn = document.getElementById("sort-btn");
 const limit = house.length;
 console.log(limit);
 
+// Variables for city
+const hanoi = document.getElementById("hanoi");
+const hcmc = document.getElementById("hcmc");
+const danang = document.getElementById("danang");
+
 // Sort by city
 function districtSort() {
   let arr = [];
   for (let i = 0; i < limit; i++) {
     let listing = house[i];
-    if (document.getElementById("hanoi").checked) {
+    if (hanoi.checked) {
+      const thanhxuan = document.getElementById("thanhxuan");
+      const hoankiem = document.getElementById("hoankiem");
       if (
-        (document.getElementById("thanhxuan").checked &&
-          listing.houseAddDis == "Thanh Xuân") ||
-        (document.getElementById("hoankiem").checked &&
-          listing.houseAddDis == "Hoàn Kiếm")
+        !thanhxuan.checked &&
+        !hoankiem.checked &&
+        listing.houseAddCity == "Hà Nội"
       ) {
-        arr.push(i);
-      } else if (listing.houseAddCity == "Hà Nội") {
-        arr.push(i);
+        arr.push(listing);
+      } else {
+        if (thanhxuan.checked && listing.houseAddDis == "Thanh Xuân") {
+          arr.push(listing);
+        }
+        if (hoankiem.checked && listing.houseAddDis == "Hoàn Kiếm") {
+          arr.push(listing);
+        }
       }
-    } else if (document.getElementById("hcmc").checked) {
+    } else if (hcmc.checked) {
+      const district1 = document.getElementById("district-1");
+      const district2 = document.getElementById("district-2");
       if (
-        (document.getElementById("district-1") &&
-          listing.houseAddDis == "Quận 1") ||
-        (document.getElementById("district-2").checked &&
-          listing.houseAddDis == "Quận 2")
+        !district1.checked &&
+        !district2.checked &&
+        listing.houseAddCity == "Hồ Chí Minh"
       ) {
-        arr.push(i);
-      } else if (listing.houseAddCity == "Hồ Chí Minh") {
-        arr.push(i);
+        arr.push(listing);
+      } else {
+        if (district1.checked && listing.houseAddDis == "Quận 1") {
+          arr.push(listing);
+        }
+        if (district2.checked && listing.houseAddDis == "Quận 2") {
+          arr.push(listing);
+        }
+      }
+    } else if (danang.checked) {
+      const sontra = document.getElementById("sontra");
+      const haichau = document.getElementById("haichau");
+      if (
+        !sontra.checked &&
+        !haichau.checked &&
+        listing.houseAddCity == "Đà Nẵng"
+      ) {
+        arr.push(listing);
+      } else {
+        if (sontra.checked && listing.houseAddDis == "Sơn Trà") {
+          arr.push(listing);
+        }
+        if (haichau.checked && listing.houseAddDis == "Hải Châu") {
+          arr.push(listing);
+        }
       }
     }
   }
@@ -39,89 +73,61 @@ function districtSort() {
 // Sort by price range
 const minPrice = document.getElementById("min-price");
 const maxPrice = document.getElementById("max-price");
+const minArea = document.getElementById("min-area");
+const maxArea = document.getElementById("max-area");
 
-function priceSort() {
+function priceAreaSort() {
   let sortArr = [];
   if (districtSort().length == 0) {
     for (let i = 0; i < limit; i++) {
-      sortArr.push(i);
+      sortArr.push(house[i]);
     }
   } else {
     sortArr = districtSort();
   }
-  if (maxPrice.value.length == 0 && minPrice.value.length == 0) {
-    return sortArr;
-  }
-  let arr = [];
-  for (let i of sortArr) {
-    let listing = house[i];
-    if (minPrice.value.length > 0 && minPrice.value <= listing.housePrice) {
-      if (maxPrice.value.length > 0 && maxPrice.value >= listing.housePrice) {
-        arr.push(i);
-      } else {
-        arr.push(i);
-      }
-    } else {
-      if (maxPrice.value >= listing.housePrice) {
-        arr.push(i);
-      }
-    }
-  }
-  return arr;
-}
 
-// sort by area
-const minArea = document.getElementById("min-area");
-const maxArea = document.getElementById("max-area");
+  if (minPrice.value.length > 0) {
+    sortArr = sortArr.filter((x) => x.housePrice >= minPrice.value);
+  }
+  if (maxPrice.value.length > 0) {
+    sortArr = sortArr.filter((x) => x.housePrice <= maxPrice.value);
+  }
 
-function areaSort() {
-  let sortArr = [];
-  if (priceSort().length == 0) {
-    for (let i = 0; i < limit; i++) {
-      sortArr.push(i);
-    }
-  } else {
-    sortArr = priceSort();
+  if (minArea.value.length > 0) {
+    sortArr = sortArr.filter((x) => x.houseSquare >= minArea.value);
   }
-  if (minArea.value.length == 0 && maxArea.value.length == 0) {
-    return sortArr;
+  if (maxArea.value.length > 0) {
+    sortArr = sortArr.filter((x) => x.houseSquare <= maxArea.value);
   }
-  let arr = [];
-  for (let i of sortArr) {
-    let listing = house[i];
-    if (minArea.value.length > 0 && minArea.value <= listing.houseSquare) {
-      if (maxArea.value.length > 0 && maxArea.value >= listing.houseSquare) {
-        arr.push(i);
-      } else {
-        arr.push(i);
-      }
-    } else {
-      if (maxArea.value >= listing.houseSquare) {
-        arr.push(i);
-      }
-    }
-  }
-  return arr;
+  console.log(sortArr);
+  return sortArr;
 }
 
 // display sorted listings!!
 
-function housealSort() {
-  let arr = areaSort();
+function houseSort() {
+  let arr = priceAreaSort();
   let limit = arr.length;
+  const houseResults = document.getElementById("house-results");
   if (limit == 0) {
     document.getElementById("listing-number").innerHTML = "No";
-    houseResults.innerHTML = "<h4><u>No results.</u></h4>";
+    houseResults.innerHTML =
+      "<h4><u>No results.</u></h4><br><p>Please try again.</p>";
     return;
   }
-  document.getElementById("listing-number").innerHTML = limit;
-  const houseResults = document.getElementById("house-results");
+  if (limit == 1) {
+    document.getElementById(
+      "house-intro"
+    ).innerHTML = `1 house on sale for you.`;
+  } else {
+    document.getElementById("listing-number").innerHTML = limit;
+  }
   houseResults.innerHTML = "<h4><u>Results:</u></h4>";
   for (let i = 0; i < limit; i += 3) {
     let listingHTML = ``;
     for (let j = i; j < i + 3; j++) {
       if (j < limit) {
-        let listing = house[arr[j]];
+        let listing = arr[j];
         listingHTML += `
         <div class="card col-sm-4">
           <div class="card-body">
@@ -145,7 +151,8 @@ function housealSort() {
     ${listingHTML}
     </div>`;
   }
+  return;
 }
 
 // Add event listener
-sortBtn.addEventListener("click", housealSort);
+sortBtn.addEventListener("click", houseSort);

@@ -1,6 +1,6 @@
-import { HOUSE } from "./housedata.js";
+import { house } from "./housedata.js";
 
-const limit = HOUSE.length;
+const limit = house.length;
 const houseResults = document.getElementById("house-results");
 
 document.getElementById("listing-number").innerHTML = limit;
@@ -9,7 +9,7 @@ for (let i = 0; i < limit; i += 3) {
   let listingHTML = ``;
   for (let j = i; j < i + 3; j++) {
     if (j < limit) {
-      let listing = HOUSE[j];
+      let listing = house[j];
       listingHTML += `
       <div class="card col-sm-4">
         <div class="card-body">
