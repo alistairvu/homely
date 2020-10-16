@@ -9,9 +9,9 @@
     />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/login.css" />
     <link rel="stylesheet" href="css/fonts.css" />
-
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/login.css" />
     <script
       src="https://kit.fontawesome.com/933d5f6cc7.js"
       crossorigin="anonymous"
@@ -24,12 +24,19 @@
       <a href="#" class="navbar-brand">Homely</a>
     </nav>
     <div class="login-box">
-      <h1>Login</h1>
-      <form action="">
+      <h1>Log in here.</h1>
+      <form action="" id="login-form">
         <input type="text" id="username" placeholder="Username" />
         <input type="password" id="password" placeholder="Password" />
-        <p id="loginError" class="d-none text-danger">Username and password require</p>
-        <input type="submit" id="submit-btn" onclick="formSubmit()" value="SUBMIT" />
+        <p id="loginError" class="d-none text-danger">
+          Username and password require
+        </p>
+        <input
+          type="submit"
+          id="submit-btn"
+          onclick="formSubmit()"
+          value="SUBMIT"
+        />
       </form>
       <div class="check-bottom row">
         <div class="col-sm text-center">
@@ -44,11 +51,12 @@
         <a href="#"><i class="fab fa-google"></i></a>
       </div>
       <div class="register">
-        <span>Not a member? <a href="registrasion.html">Create an account</a> </span>
+        <span
+          >Not a member? <a href="registrasion.html">Create an account</a>
+        </span>
       </div>
     </div>
     <script src="/js/event.js"></script>
     <script src="/js/userdata.js"></script>
-
   </body>
 </html>
