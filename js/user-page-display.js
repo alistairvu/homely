@@ -1,11 +1,11 @@
-import { HOUSE } from "./housedata.js";
+import { house } from "./housedata.js";
 import { rent } from "./rentdata.js";
 
-let inforHouse = document.getElementById("list-houses-user");
+let infoHouse = document.getElementById("list-houses-user");
 const ID = 2;
-for (let i = 0; i < HOUSE.length; i++) {
-  const houseNum = HOUSE[i];
-  let displayInfor = `
+for (let i = 0; i < house.length; i++) {
+  const houseNum = house[i];
+  let displayInfo = `
         <div class="card col-sm-3">
         <div class="card-body" >
           <img
@@ -23,13 +23,13 @@ for (let i = 0; i < HOUSE.length; i++) {
         </div>
         <button class="align-self-end" style="margin: 9px auto;">Deleted</button>
       </div>`;
-  inforHouse.innerHTML += displayInfor;
+  infoHouse.innerHTML += displayInfo;
 }
 
-inforHouse = document.getElementById("list-houses-user");
+infoHouse = document.getElementById("list-houses-user");
 for (let i = 0; i < rent.length; i++) {
   const rentNum = rent[i];
-  let displayInfor = `
+  let displayInfo = `
         <div class="card col-sm-3">
         <div class="card-body">
           <img
@@ -47,5 +47,5 @@ for (let i = 0; i < rent.length; i++) {
           </div>
           <button disabled="disabled" class="align-self-end" style="margin: 0px auto 9px;">Deleted</button>
       </div>`;
-  inforHouse.innerHTML += displayInfor;
+  infoHouse.innerHTML += displayInfo;
 }
