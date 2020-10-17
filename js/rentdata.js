@@ -356,7 +356,8 @@ export const rent = [
       "Dự án Lakeview City, Đường Song Hành, Phường An Phú",
     rentAddDis: "Hải Châu",
     rentAddCity: "Đà Nẵng",
-    rentTitle: `Bán căn hộ Indochina đường Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng. Căn hộ tầng cao rộng 108m2, view đẹp. Thiết kế gồm có 1 phòng khách, 1 phòng bếp, 2 phòng ngủ và 2 phòng vệ sinh. Full nội thất đẹp.
+    rentTitle: `Bán căn hộ Indochina đường Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng`,
+    rentDescript: `Căn hộ tầng cao rộng 108m2, view đẹp. Thiết kế gồm có 1 phòng khách, 1 phòng bếp, 2 phòng ngủ và 2 phòng vệ sinh. Full nội thất đẹp.
     Căn hộ Indochina là căn hộ cao cấp nằm ngay trung tâm thành phố, sát sông Hàn. Đầy đủ tiện ích, công năng sử dụng. An ninh 24/24.
     Thuận tiện giao thương đi lại.
     Thích hợp mua ở hoặc đầu tư.

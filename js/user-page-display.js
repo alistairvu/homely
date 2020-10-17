@@ -13,11 +13,9 @@ for (let i = 0; i < house.length; i++) {
             class="card-img-top rounded"
             style = " width = "100" height ="130";"
           />
-          <h5 class="listing-title" style="margin: 10px auto 9px;">
-            <a href="house/${house.indexOf(listing) + 1}.html">${
-    houseNum.houseTitle
-  }</a>
-          </h5>
+          <h5 class="listing-title" style = "margin: 10px auto 9px;"> <a href="house/${
+            house.indexOf(houseNum) + 1
+          }.html"> ${houseNum.houseTitle}</a> </h5>
           <p class="brief-info" >
           Price: ${houseNum.housePrice}m/month Bedroom: ${
     houseNum.houseBedroom
@@ -42,13 +40,11 @@ for (let i = 0; i < rent.length; i++) {
             src="${rentNum.rentImg}"
             alt="house"
             class="card-img-top"
-            style = " width = "150" height ="200";"
+            style = " width = "100" height ="130";"
           />
-          <h5 class="listing-title" style="margin: 10px auto 9px;">
-            <a href="rental/${rent.indexOf(listing) + 1}.html">${
-    rentNum.rentTitle
-  }</a>
-          </h5>
+          <h5 class="listing-title" style = "margin: 10px auto 9px;"> <a href="rental/${
+            rent.indexOf(rentNum) + 1
+          }.html"> ${rentNum.rentTitle}</a> </h5>
           <p class="brief-info">
             Price: ${rentNum.rentPrice}m/month Bedroom: ${
     rentNum.rentBedroom
