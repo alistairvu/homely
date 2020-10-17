@@ -114,10 +114,16 @@ function rentalSort() {
         <div class="card col-sm-4">
           <div class="card-body">
             <img src="${listing.rentImg}" class="card-img-top"/>
-            <h5 class="listing-title"> <a href="listing-sample.html"> ${listing.rentTitle}</a> </h5>
+            <h5 class="listing-title"> <a href="rental/${
+              rent.indexOf(listing) + 1
+            }.html"> ${listing.rentTitle}</a> </h5>
             <p class="brief-info">
-              Price: ${listing.rentPrice}m/mo | Bedrooms: ${listing.rentBedroom} <br />
-              Bathrooms: ${listing.rentBathroom} | Area: ${listing.rentSquare} m<sup>2</sup>
+              Price: ${listing.rentPrice}m/mo | Bedrooms: ${
+          listing.rentBedroom
+        } <br />
+              Bathrooms: ${listing.rentBathroom} | Area: ${
+          listing.rentSquare
+        } m<sup>2</sup>
             </p>
             <p style="font-family: 'Playfair Display', serif">
               ${listing.rentAddress} <br>
