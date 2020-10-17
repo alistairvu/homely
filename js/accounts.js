@@ -6,22 +6,26 @@ export const accounts = [
   },
   {
     name: "User1",
-    password: "blabla",
+    pass: "blabla",
     id: 1,
+    role : "user",
   },
   {
     name: "User2",
-    password: "blabla",
+    pass: "blabla",
     id: 2,
+    role : "user",
   },
   {
     name: "User3",
-    password: "blabla",
+    pass: "blabla",
     id: 3,
+    role : "user",
   },
   {
     name: "User4",
-    password: "blabla",
+    pass: "blabla",
     id: 4,
+    role : "user",
   },
 ];
