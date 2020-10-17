@@ -209,5 +209,181 @@ export const rent = [
       Vị trí nhà nào đa dạng, nhà đẹp, đảm bảo giá thấp nhất thị trường.
       Chìa khóa có sẵn do khách gửi, hỗ trợ xem nhà 24/7 miễn phí.
       Đặc biệt: Hỗ trợ hồ sơ trọn gói.`,
+  },{
+    houseid: 4,
+    houseImg:
+      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/07/20201007142708-cf07_wm.jpg",
+    housePrice: 4.35,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 92,
+    houseAddress: "So 3 Khu C phố D ",
+    houseAddDis: "Quận 2",
+    houseAddCity: "Hồ Chí Minh",
+    houseTitle: `2PN 92M2 4.350 TỶ THÁP LOTUS - DUPLEX 2PN 4.5 TỶ BAO HẾT`,
+    houseDescript: `Căn 1/.
+    2PN, DT 92m2, tháp Lotus là tháp mới và cao cấp nhất dự án.
+    Nhà bố trí layout rất hợp lý, đối lưu gió tốt.
+    2 phòng ngủ được tách ra 2 bên, phòng khách ở giữa.
+    Full nội thất đẹp, tông màu nhẹ nhàng. View sông và hồ bơi.
+    Chốt nhanh 4.350 tỷ. Có 2 option tầng trung và tầng cao.`,
+  },
+  {
+    houseid: 4,
+    houseImg:
+      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/12/20201012093114-7b9a_wm.jpg",
+    housePrice: 3.3,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 55,
+    houseAddress: "chung cư 39C Hai Bà Trưng, Hoàn Kiếm",
+    houseAddDis: "Hoàn Kiếm",
+    houseAddCity: "Hà Nội",
+    houseTitle: `Chính chủ bán chung cư 39C Hai Bà Trưng, Hoàn Kiếm DT 55m2 tầng 2`,
+    houseDescript: `Hiện tại gia đình tôi đang cần bán căn hộ tại chung cư 39C Hai Bà Trưng, phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội.
+    Diện tích 55m2, thiết kế 2 phòng ngủ, 1 nhà vệ sinh, 1 phòng khách, 1 bếp.
+    Nội thất bao gồm sàn gỗ, bàn ghế, điều hòa, giường tủ, tủ bếp... 
+    Nằm ngay mặt đường Hai Bà Trưng, rất thuận tiện đi lại, gần các cơ quan đầu não quốc gia, bờ hồ... 
+    Phù hợp với các anh chị đang công tác tại quận Hoàn Kiếm...
+    Tình trạng sở hữu lâu dài`,
+  },
+  {
+    houseid: 4,
+    houseImg:
+      "https://file4.batdongsan.com.vn/resize/200x200/2020/04/21/20200421153814-c1cc_wm.jpg",
+    housePrice: 3.1,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 3,
+    housePhone: "+84 1235567",
+    houseSquare: 65,
+    houseAddress:
+      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông, Sơn Trà, Đà Nẵng",
+    houseAddDis: "Sơn Trà",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Bán căn hộ Hiyori tiêu chuẩn Nhật Bản, khả năng cho thuê tốt`,
+    houseDescript: `Vị trí: 4 mặt tiền tuyến đường vàng Võ Văn Kiệt, kết nối sân bay biển thành phố Hội An.
+    Vị trí nằm giữa cung đường huyết mạch thẳng từ Nguyễn Văn Linh đến Võ Văn Kiệt ra biển Mỹ Khê, chỉ mất 5 phút đi bộ ra biển.
+    Nối liền trung tâm du lịch & trung tâm hành chính của thành phố Đà Nẵng.`,
+  },
+  {
+    houseid: 5,
+    houseImg:
+      "https://file4.batdongsan.com.vn/resize/200x200/2020/09/22/20200922161240-bd53_wm.jpg",
+    housePrice: 3.9,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 63,
+    houseAddress:
+      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông, Sơn Trà, Đà Nẵng",
+    houseAddDis: "Sơn Trà",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Chuyển nhà về quê sống nên cần bán căn hộ Hiyori 2PN full nội thất đẹp`,
+    houseDescript: `Bán căn hộ 2PN Hiyori Garden Tower full nội thất đẹp, chỉ cần mang quần áo đến ở.
+
+    Thông tin dự án Hiyori Garden Tower.
+    Hiyori Garden Tower Đà Nẵng tọa lạc trên đường Võ Văn Kiệt, phường An Hải Đông, quận Sơn Trà, TP. Đà Nẵng. Khi đi vào hoạt động, dự án sẽ là một công trình có quy mô, điểm nhấn kiến trúc cảnh quan Đà Nẵng và hoàn chỉnh quy hoạch khu vực.
+    
+    Tên dự án: Hiyori Garden Tower.
+    Chủ đầu tư: Công ty CP Bất động sản Sun Frontier (Nhật Bản) và Công ty TNHH MTV Sun Frontier Đà Nẵng.
+    Đơn vị thiết kế: Viện Quy hoạch Xây dựng Đà Nẵng (UPI Đà Nẵng).
+    Thiết kế nội thất: Công ty TNHH Tư vấn Thiết kế Xây dựng Kiến Vạn Tín.
+    Đơn vị thi công: Công ty CP Dinco.
+    Ngân hàng bảo lãnh: Vietcombank Đà Nẵng.
+    Quy mô: Tòa nhà cao 28 tầng nổi, tầng áp mái và 2 tầng hầm.
+    Tổng diện tích: 2077,6m2.
+    Diện tích xây dựng: 1076m2.
+    Mật độ xây dựng: 51,8%.
+    Tổng diện tích sàn: 33376m2.`,
+  },
+  {
+    houseid: 5,
+    houseImg:
+      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/09/20201009101344-349f_wm.jpg",
+    housePrice: 3,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 63,
+    houseAddress: "Dự án Fusion Suites Da Nang Beach, Sơn Trà, Đà Nẵng",
+    houseAddDis: "Sơn Trà",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Bán căn hộ Fusion Suite , Võ Nguyen Giáp thành phố Đà Nẵng sở hưu lâu dài tiêu chuẩn 4 sao`,
+    houseDescript: `Cần bán căn hộ Fusion suite tâng11,12 view trực diẹn biển giá từ 3.1 tỉ
+    tiện tích : Hồ bơi riêng, bãi tắm riêng, nhà hàng, coffee, spa, yoga riêng của toà căn hộ do Fusion Suite vận hành.`,
+  },
+  {
+    houseid: 5,
+    houseImg:
+      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/01/20201001112943-e01c_wm.jpg",
+    housePrice: 4.32,
+    houseBedroom: 3,
+    houseBathroom: 3,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 132,
+    houseAddress:
+      "Dự án Blooming Tower, Đường Xuân Diệu, Phường Thuận Phước, Hải Châu, Đà Nẵng",
+    houseAddDis: "Hải Châu",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Bán chung cư Blooming Tower Đà Nẵng 3 phòng ngủ`,
+    houseDescript: `
+    Bán chung cư Blooming Tower Đà Nẵng. Căn hộ rộng 135m2, bao gồm 1 phòng khách, 1 phòng bếp, 3 phòng ngủ, 2 phòng vệ sinh. View đẹp, tầng cao. Nội thất đẹp đầy đủ, chỉ xách vali vào ở.
+    Chung cư Blooming nằm ngay sát chân cầu Thuận Phước, gần biển Nguyễn Tất Thành. Vị trí đẹp, yên tĩnh, mát mẻ.
+    Giá tốt để đầu tư.
+    Giá bán: 32 triệu/m2 = 4.32 tỷ.
+    Thông tin liên hệ: Công ty TNHH bất động sản Toàn Huy Hoàng.
+    Địa chỉ: Tầng 4 Kim Sơn Building, 16 - 18 Phan Thành Tài - Q. Hải Châu - TP Đà Nẵng.`,
+  },
+  {
+    houseid: 2,
+    houseImg:
+      "https://file4.batdongsan.com.vn/2020/09/30/20200930150208-1da4_wm.jpg",
+    housePrice: 4.6,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 108,
+    houseAddress:
+      "Dự án Lakeview City, Đường Song Hành, Phường An Phú, Quận 2, Hồ Chí Minh",
+    houseAddDis: "Hải Châu",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Bán căn hộ Indochina đường Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng. Căn hộ tầng cao rộng 108m2, view đẹp. Thiết kế gồm có 1 phòng khách, 1 phòng bếp, 2 phòng ngủ và 2 phòng vệ sinh. Full nội thất đẹp.
+    Căn hộ Indochina là căn hộ cao cấp nằm ngay trung tâm thành phố, sát sông Hàn. Đầy đủ tiện ích, công năng sử dụng. An ninh 24/24.
+    Thuận tiện giao thương đi lại.
+    Thích hợp mua ở hoặc đầu tư.
+    Giá bán: 4.6 tỷ.
+    Thông tin liên hệ: Công ty TNHH bất động sản Toàn Huy Hoàng.
+    Địa chỉ: Tầng 4 Kim Sơn Building, 16 - 18 Phan Thành Tài - Q. Hải Châu - TP Đà Nẵng.`,
+  },
+  {
+    houseid: 1,
+    houseImg:
+      "https://file4.batdongsan.com.vn/resize/200x200/2019/05/25/20190525150342-d9ad_wm.jpg",
+    housePrice: 2.25,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 63,
+    houseAddress:
+      "Dự án F.Home, Phố Lý Thường Kiệt, Phường Thạch Thang, Hải Châu, Đà Nẵng",
+    houseAddDis: "Hải Châu",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Sang nhượng căn hộ F.Home Lý Thường Kiệt, full nội thất giá sụp hầm covid`,
+    houseDescript: `Bán căn hộ Fhome giá tốt để mua đầu tư hoặc ở, do nhà có việc gấp nên bán nhanh cho khách thiện chí mua thực sựm không đi xem dạo giá cho vui.
+    Khu căn hộ cho khách nước ngoài thuê 80%, tiện ích nội khu có sẵn hồ bơi, phòng gym, spa, trường học quốc tế. Căn hộ ngay trung tâm thành phố rất thuận tiện cho khách hàng di chuyển đưa đón con đi học hoặc đi làm.
+    Diện tích căn hộ: 63m2.
+    Thiết kế: 2 phòng ngủ, 1 phòng khách, 1 phòng bếp, 2 wc.
+    Pháp lý : sổ đỏ chính chủ
+    Hỗ trợ vay ngân hàng từ 60-70% giá trị căn hộ`,
   },
 ];
