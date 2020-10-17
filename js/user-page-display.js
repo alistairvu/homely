@@ -1,51 +1,56 @@
-import { HOUSE } from "./housedata.js";
+import { house } from "./housedata.js";
 import { rent } from "./rentdata.js";
 
-let inforHouse = document.getElementById("list-houses-user");
-const ID = 2;
-for (let i = 0; i < HOUSE.length; i++) {
-  const houseNum = HOUSE[i];
-  let displayInfor = `
+let infoHouse = document.getElementById("list-houses-user");
+for (let i = 0; i < house.length; i++) {
+  const houseNum = house[i];
+  let displayInfo = `
         <div class="card col-sm-3">
         <div class="card-body" >
           <img
             src="${houseNum.houseImg}"
             alt="house"
-            class="card-img-top"
+            class="card-img-top rounded"
+            style = " width = "150" height ="200";"
           />
-          <h5 class="listing-title">
+          <h5 class="listing-title" style="margin: 10px auto 9px;">
             <a href="#">${houseNum.houseTitle}</a>
           </h5>
           <p class="brief-info" >
-          Price: ${houseNum.housePrice}m/month | Bedroom: ${houseNum.houseBedroom} <br />
-          Bathrooms: ${houseNum.houseBathroom} | Area: ${houseNum.houseSquare}m <sup>2</sup>
+          Price: ${houseNum.housePrice}m/month Bedroom: ${houseNum.houseBedroom} <br>
+          Bathrooms: ${houseNum.houseBathroom}<br>Area: ${houseNum.houseSquare}m <sup>2</sup>
           </p>
         </div>
-        <button class="align-self-end" style="margin: 9px auto;">Deleted</button>
+        <button id="house${i}" class="align-self-end btn btn-outline-secondary" style="margin: -20px auto 9px;" onclick="disableFunction('house${i}')">Deleted</button>
       </div>`;
-  inforHouse.innerHTML += displayInfor;
+  infoHouse.innerHTML += displayInfo;
 }
 
-inforHouse = document.getElementById("list-houses-user");
+infoHouse = document.getElementById("list-houses-user");
 for (let i = 0; i < rent.length; i++) {
   const rentNum = rent[i];
-  let displayInfor = `
+  let displayInfo = `
         <div class="card col-sm-3">
         <div class="card-body">
           <img
             src="${rentNum.rentImg}"
             alt="house"
             class="card-img-top"
+            style = " width = "150" height ="200";"
           />
-          <h5 class="listing-title">
+          <h5 class="listing-title" style="margin: 10px auto 9px;">
             <a href="#">${rentNum.rentTitle}</a>
           </h5>
           <p class="brief-info">
-            Price: ${rentNum.rentPrice}m/month | Bedroom: ${rentNum.rentBedroom} <br />
-            Bathrooms: ${rentNum.rentBathroom} | Area: ${rentNum.rentSquare}m <sup>2</sup>
+            Price: ${rentNum.rentPrice}m/month Bedroom: ${rentNum.rentBedroom} <br>
+            Bathrooms: ${rentNum.rentBathroom} <br>Area: ${rentNum.rentSquare}m <sup>2</sup>
           </p>
           </div>
-          <button disabled="disabled" class="align-self-end" style="margin: 0px auto 9px;">Deleted</button>
+          <button id="rent${i}" class="align-self-end btn btn-outline-secondary" style="margin: -20px auto 9px;" onclick="disableFunction('rent${i}')">Deleted</button>
       </div>`;
-  inforHouse.innerHTML += displayInfor;
+  infoHouse.innerHTML += displayInfo;
 }
+
+window.disableFunction = function disableFunction(nameButton) {
+  document.getElementById(nameButton).disabled = true;
+};

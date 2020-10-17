@@ -19,7 +19,7 @@ export const house = [
   {
     houseid: 1,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/08/21/IDHysJ7g/20200821081441-b4e0_wm.jpg",
+      "https://images.adsttc.com/media/images/5e1d/02c3/3312/fd58/9c00/06e9/slideshow/NewHouse_SA_Photo_01.jpg?1578959519",
     housePrice: 5.5,
     houseBedroom: 5,
     houseBathroom: 3,

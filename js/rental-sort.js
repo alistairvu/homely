@@ -113,7 +113,9 @@ function rentalSort() {
         listingHTML += `
         <div class="card col-sm-4">
           <div class="card-body">
-            <img src="${listing.rentImg}" class="card-img-top"/>
+            <img src="${
+              listing.rentImg
+            }" class="card-img-top" width="150" height="200"/>
             <h5 class="listing-title"> <a href="rental/${
               rent.indexOf(listing) + 1
             }.html"> ${listing.rentTitle}</a> </h5>
