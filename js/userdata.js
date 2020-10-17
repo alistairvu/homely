@@ -19,10 +19,5 @@ export const user = [
     password: "blabla",
     id: 4,
   },
-  {
-    name: "admin",
-    password: "blabla",
-    id: 0,
-  },
 ];
 
