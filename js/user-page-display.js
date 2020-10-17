@@ -11,7 +11,7 @@ for (let i = 0; i < house.length; i++) {
             src="${houseNum.houseImg}"
             alt="house"
             class="card-img-top rounded"
-            style = " width = "150" height ="200";"
+            style = " width = "100" height ="130";"
           />
           <h5 class="listing-title" style="margin: 10px auto 9px;">
             <a href="#">${houseNum.houseTitle}</a>
