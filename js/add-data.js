@@ -8,7 +8,7 @@ rentSale.onchange = function () {
   let rentSaleSelection = rentSale.options[rentSale.selectedIndex].text;
   switch (rentSaleSelection) {
     case "Rental":
-      newListing.rentid = 5;
+      newListing.rentId = 5;
       newListing.rentPrice = document.getElementById("price").data;
       newListing.rentBedroom = document.getElementById("Bedroom").data;
       newListing.rentBathroom = document.getElementById("bathRoom").data;
@@ -25,7 +25,7 @@ rentSale.onchange = function () {
       console.log(rent);
       break;
     case "For Sale":
-      newListing.houseid = 0;
+      newListing.houseId = 0;
       newListing.housePrice = document.getElementById("price").data;
       newListing.houseBedroom = document.getElementById("Bedroom").data;
       newListing.houseBathroom = document.getElementById("bathRoom").data;
