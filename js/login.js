@@ -1,23 +1,31 @@
 import { accounts } from "./accounts.js";
 
-let username = document.getElementById("username");
-let password = document.getElementById("password");
-let submitbtn = document.getElementById("submit-btn");
-
-console.log(accounts);
+const username = document.getElementById("username");
+const password = document.getElementById("password");
+const submitBtn = document.getElementById("submit-btn");
 
 function formLogIn() {
   let matches = accounts.filter((x) => x.name == username.value);
-  const match = matches[0];
+  let match = {};
+  if (matches.length != 0) {
+    match = match[0];
+  } else {
+    match = localStorage.getItem(`${username.value}`);
+    if (match === null) {
+      alert("Wrong username!");
+      return;
+    }
+    match = JSON.parse(match);
+  }
   if (password.value == match.pass) {
     switch (match.role) {
       case "admin":
         alert("Hello, admin!");
-        window.location = "homely/admin-page.html";
+        window.location = "admin-page.html";
         break;
       case "user":
         alert("Welcome, user");
-        window.location = "homely/user-page.html";
+        window.location = "user-page.html";
         break;
     }
   } else {
@@ -25,4 +33,4 @@ function formLogIn() {
   }
 }
 
-submitbtn.addEventListener("click", formLogIn);
+submitBtn.addEventListener("click", formLogIn);

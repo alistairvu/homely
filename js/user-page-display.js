@@ -21,7 +21,7 @@ for (let i = 0; i < house.length; i++) {
           Bathrooms: ${houseNum.houseBathroom}<br>Area: ${houseNum.houseSquare}m <sup>2</sup>
           </p>
         </div>
-        <button id="house${i}" class="align-self-end btn btn-outline-secondary" style="margin: -20px auto 9px;" onclick="disableFunction('house${i}')">Deleted</button>
+        <button id="house${i}" class="align-self-end btn btn-outline-secondary" style="margin: -20px auto 9px;" onclick="disableFunction('house${i}')">Delete</button>
       </div>`;
   infoHouse.innerHTML += displayInfo;
 }

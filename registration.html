@@ -36,11 +36,18 @@
         <label for="password">
           Re-enter password(<font color="red">*</font>):</label
         >
-        <input type="password" id="confirmPassword" placeholder="Re-enter password" required />
+        <input
+          type="password"
+          id="confirmPassword"
+          placeholder="Re-enter password"
+          required
+        />
         <br />
         <label for="date">Date of birth(<font color="red">*</font>):</label>
         <input type="date" id="date" required /> <br />
-        <input type="submit" id="create-btn" value="Create account" />
+        <button type="button" id="create-btn" value="Create account">
+          Submit
+        </button>
       </form>
       <div class="notice">
         <p class="policy">
@@ -49,5 +56,6 @@
         </p>
       </div>
     </div>
+    <script type="module" src="js/register.js"></script>
   </body>
 </html>
