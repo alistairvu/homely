@@ -46,11 +46,12 @@ for (let i = 0; i < rent.length; i++) {
             Bathrooms: ${rentNum.rentBathroom} <br>Area: ${rentNum.rentSquare}m <sup>2</sup>
           </p>
           </div>
-          <button id="rent${i}" class="align-self-end btn btn-outline-secondary" style="margin: -20px auto 9px;" onclick="disableFunction('rent${i}')">Deleted</button>
+          <button id="rent${i}" class="align-self-end btn btn-outline-secondary" style="margin: -20px auto 9px;" onclick="disableFunction('rent${i}')">Delete</button>
       </div>`;
   infoHouse.innerHTML += displayInfo;
 }
 
 window.disableFunction = function disableFunction(nameButton) {
   document.getElementById(nameButton).disabled = true;
+  document.getElementById(nameButton).innerHTML = "Deleted";
 };
