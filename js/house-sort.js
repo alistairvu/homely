@@ -131,7 +131,9 @@ function houseSort() {
         listingHTML += `
         <div class="card col-sm-4">
           <div class="card-body">
-            <img src="${listing.houseImg}" class="card-img-top"/>
+            <img src="${
+              listing.houseImg
+            }" class="card-img-top" width="150" height="200"/>
             <h5 class="listing-title"> <a href="house/${
               house.indexOf(listing) + 1
             }.html"> ${listing.houseTitle}</a> </h5>
