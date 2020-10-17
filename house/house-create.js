@@ -13,8 +13,8 @@ housedisplay.innerHTML += `<div id="intro">
 <div class="row" id="house-display">
   <!--Listing info-->
   <div class="col-sm-9" id="listing-info">
-    <div id="img-container" class="d-flex justify-content-center">
-      <img class="img-fluid" src="${listing.houseImg}">
+    <div id="img-container" class="d-flex justify-content-center" >
+      <img class="img-fluid" src="${listing.houseImg}" width="600" height="800" style="padding-bottom:50px;">
     </div>
     <h4>Address:</h4>
     <p class="text-center">${listing.houseAddress}<br>
