@@ -27,10 +27,15 @@ function securePassword() {
 
 function checkPassword() {
   if (confirmPassword.value != newPassword.value) {
+    document.getElementById(
+      "password-match"
+    ).innerHTML = `<em style="font-size:11px">Passwords do not match.</em>`;
     return false;
   }
   return true;
 }
+
+confirmPassword.onkeypress = checkPassword();
 
 function registerAcc() {
   if (!checkDuplicate()) {
