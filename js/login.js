@@ -17,7 +17,7 @@ function formLogIn() {
         break;
       case "user":
         alert("Welcome, user");
-        window.location= '../user-page.html'
+        window.location = '../user-page.html'
         break;
     }
   } else {
