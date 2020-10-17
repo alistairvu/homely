@@ -1,6 +1,9 @@
 import { house } from "./housedata.js";
 import { rent } from "./rentdata.js";
 
+document.getElementById("listing-number").innerHTML =
+  house.length + rent.length;
+
 let infoHouse = document.getElementById("list-houses-user");
 for (let i = 0; i < house.length; i++) {
   const houseNum = house[i];
