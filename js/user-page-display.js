@@ -1,10 +1,10 @@
 import { house } from "./housedata.js";
 import { rent } from "./rentdata.js";
 
-let inforHouse = document.getElementById("list-houses-user");
+let infoHouse = document.getElementById("list-houses-user");
 for (let i = 0; i < house.length; i++) {
   const houseNum = house[i];
-  let displayInfor = `
+  let displayInfo = `
         <div class="card col-sm-3">
         <div class="card-body" >
           <img
@@ -23,13 +23,13 @@ for (let i = 0; i < house.length; i++) {
         </div>
         <button id="house${i}" class="align-self-end btn btn-outline-secondary" style="margin: -20px auto 9px;" onclick="disableFunction('house${i}')">Deleted</button>
       </div>`;
-  inforHouse.innerHTML += displayInfor;
+  infoHouse.innerHTML += displayInfo;
 }
 
-inforHouse = document.getElementById("list-houses-user");
+infoHouse = document.getElementById("list-houses-user");
 for (let i = 0; i < rent.length; i++) {
   const rentNum = rent[i];
-  let displayInfor = `
+  let displayInfo = `
         <div class="card col-sm-3">
         <div class="card-body">
           <img
@@ -48,7 +48,7 @@ for (let i = 0; i < rent.length; i++) {
           </div>
           <button id="rent${i}" class="align-self-end btn btn-outline-secondary" style="margin: -20px auto 9px;" onclick="disableFunction('rent${i}')">Deleted</button>
       </div>`;
-  inforHouse.innerHTML += displayInfor;
+  infoHouse.innerHTML += displayInfo;
 }
 
 window.disableFunction = function disableFunction(nameButton) {
