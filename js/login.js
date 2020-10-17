@@ -23,11 +23,11 @@ function formLogIn() {
     switch (match.role) {
       case "admin":
         alert("Hello, admin!");
-        window.location = "admin-page.html";
+        window.location.href = "./admin-page.html";
         break;
       case "user":
         alert("Welcome, user");
-        window.location = "user-page.html";
+        window.location.href = "./user-page.html";
         break;
     }
   } else {
