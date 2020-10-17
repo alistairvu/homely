@@ -1,6 +1,5 @@
 import { accounts } from "./accounts.js";
 
-const register = document.getElementById("register-box");
 const newUserName = document.getElementById("name");
 const newPassword = document.getElementById("pass");
 const confirmPassword = document.getElementById("confirmPassword");
@@ -8,7 +7,29 @@ const email = document.getElementById("mail");
 const fullName = document.getElementById("full-name");
 const createBtn = document.getElementById("create-btn");
 
+function securePassword() {
+  let pass = newPassword.value;
+  if (pass.length <= 8) {
+    return false;
+  }
+}
+
+function checkPassword() {
+  if (confirmPassword.value != newPassword.value) {
+    return false;
+  }
+  return true;
+}
+
 function registerAcc() {
+  if (!securePassword()) {
+    alert("Password not secure enough!");
+    return;
+  }
+  if (!checkPassword()) {
+    alert("Passwords do not match!");
+    return;
+  }
   const newUser = {
     name: newUserName.value,
     pass: newPassword.value,

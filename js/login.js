@@ -7,8 +7,9 @@ const submitBtn = document.getElementById("submit-btn");
 function formLogIn() {
   let matches = accounts.filter((x) => x.name == username.value);
   let match = {};
+  console.log(matches);
   if (matches.length != 0) {
-    match = match[0];
+    match = matches[0];
   } else {
     match = localStorage.getItem(`${username.value}`);
     if (match === null) {
@@ -17,6 +18,7 @@ function formLogIn() {
     }
     match = JSON.parse(match);
   }
+  console.log(match);
   if (password.value == match.pass) {
     switch (match.role) {
       case "admin":
