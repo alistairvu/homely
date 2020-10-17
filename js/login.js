@@ -13,9 +13,11 @@ function formLogIn() {
     switch (match.role) {
       case "admin":
         alert("Hello, admin!");
+        window.location = '../admin-page.html'
         break;
       case "user":
         alert("Welcome, user");
+        window.location= '../user-page.html'
         break;
     }
   } else {
