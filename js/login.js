@@ -26,7 +26,7 @@ function formLogIn() {
         window.location.href = "./admin-page.html";
         break;
       case "user":
-        alert("Welcome, user");
+        alert(`Welcome, ${match.name}`);
         window.location.href = "./user-page.html";
         break;
     }
