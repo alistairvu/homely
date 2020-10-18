@@ -2,7 +2,7 @@ export const rent = [
   {
     rentid: 1,
     rentImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/05/07/vVMfcTGI/20200507155707-2542_wm.jpg",
+      "https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     rentPrice: 4.2,
     rentBedroom: 3,
     rentBathroom: 2,
@@ -19,14 +19,14 @@ export const rent = [
   {
     rentid: 1,
     rentImg:
-      "https://images.adsttc.com/media/images/5e1d/02c3/3312/fd58/9c00/06e9/slideshow/NewHouse_SA_Photo_01.jpg?1578959519",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     rentPrice: 5.5,
     rentBedroom: 5,
     rentBathroom: 3,
     rentFloor: 3,
     rentPhone: "+84 1534567",
     rentSquare: 40,
-    rentAddress: "So 2 Khu B phố C quận Thanh Xuân tp Hà Nội",
+    rentAddress: "So 2 Khu B phố C",
     rentAddDis: "Thanh Xuân",
     rentAddCity: "Hà Nội",
     rentTitle: `Nhà 3 tầng 1 tỷ 50tr sổ đỏ bao tên đối diện AEON Mall Hà Đông`,
@@ -36,7 +36,7 @@ export const rent = [
   {
     rentid: 2,
     rentImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/09/14/20200914161906-2702_wm.jpg",
+      "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1087&q=80",
     rentPrice: 2.1,
     rentBedroom: 2,
     rentBathroom: 1,
@@ -60,14 +60,14 @@ export const rent = [
   {
     rentid: 2,
     rentImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=973&q=80",
     rentPrice: 33.5,
     rentBedroom: 4,
     rentBathroom: 4,
     rentFloor: 2,
     rentPhone: "+84 1235567",
     rentSquare: 31,
-    rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo",
     rentAddDis: "Hoàn Kiếm",
     rentAddCity: "Hà Nội",
     rentTitle: `NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
@@ -82,14 +82,14 @@ export const rent = [
   {
     rentid: 3,
     rentImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80",
     rentPrice: 20,
     rentBedroom: 7,
     rentBathroom: 5,
     rentFloor: 3,
     rentPhone: "+84 1235567",
     rentSquare: 186.4,
-    rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo",
     rentAddDis: "Hoàn Kiếm",
     rentAddCity: "Hà Nội",
     rentTitle: `100% CHÍNH CHỦ BÁN NHANH SONG LẬP ÁP GÓC KHU TULIP 03 - 32 TÂY BẮC 20 TỶ`,
@@ -105,7 +105,7 @@ export const rent = [
   {
     rentid: 3,
     rentImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/09/21/20200921110355-033c_wm.jpg",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80",
     rentPrice: 7.2,
     rentBedroom: 4,
     rentBathroom: 3,
@@ -113,7 +113,7 @@ export const rent = [
     rentPhone: "+84 1235567",
     rentSquare: 90,
     rentAddress:
-      "Thống Nhất Complex, số 82, Đường Nguyễn Tuân, Phường Thanh Xuân Trung, Thanh Xuân, Hà Nội",
+      "Thống Nhất Complex, số 82, Đường Nguyễn Tuân, Phường Thanh Xuân Trung",
     rentAddDis: "Thanh Xuân",
     rentAddCity: "Hà Nội",
     rentTitle: `Liền kề 88m2 thấp tầng tổ hợp nhà LK trung tâm thương mại Thống Nhất Complex số 82 Nguyễn Tuân`,
@@ -130,14 +130,14 @@ export const rent = [
   {
     rentid: 3,
     rentImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
+      "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80",
     rentPrice: 22.5,
     rentBedroom: 7,
     rentBathroom: 5,
     rentFloor: 6,
     rentPhone: "+84 1235567",
     rentSquare: 75,
-    rentAddress: "HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO QUẬN 1",
+    rentAddress: "HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO",
     rentAddDis: "Quận 1",
     rentAddCity: "Hồ Chí Minh",
     rentTitle: `HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO QUẬN 1, DT: 4.5 X 17M, 3 TẦNG, HẺM 3 M SAU NHÀ.`,
@@ -151,14 +151,14 @@ export const rent = [
   {
     rentid: 3,
     rentImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/10/20201010093806-3fd4_wm.jpg",
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     rentPrice: 22.5,
     rentBedroom: 6,
     rentBathroom: 6,
     rentFloor: 6,
     rentPhone: "+84 1235567",
     rentSquare: 170,
-    rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    rentAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo",
     rentAddDis: "Quận 1",
     rentAddCity: "Hồ Chí Minh",
     rentTitle: `170M2 ĐẤT TIỆN XÂY MỚI, ĐƯỜNG HAI BÀ TRƯNG, QUẬN 1`,
@@ -169,7 +169,7 @@ export const rent = [
   {
     rentid: 2,
     rentImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/06/20201006153459-3276_wm.jpg",
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     rentPrice: 18,
     rentBedroom: 5,
     rentBathroom: 3,
@@ -177,7 +177,7 @@ export const rent = [
     rentPhone: "+84 1235567",
     rentSquare: 168,
     rentAddress:
-      "Dự án Lakeview City, Đường Song Hành, Phường An Phú, Quận 2, Hồ Chí Minh",
+      "Dự án Lakeview City, Đường Song Hành, Phường An Phú",
     rentAddDis: "Quận 2",
     rentAddCity: "Hồ Chí Minh",
     rentTitle: `NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
@@ -190,7 +190,7 @@ export const rent = [
   {
     rentid: 1,
     rentImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/02/20201002095102-39bf_wm.jpg",
+      "https://images.unsplash.com/photo-1467987506553-8f3916508521?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     rentPrice: 2.9,
     rentBedroom: 1,
     rentBathroom: 1,
@@ -198,7 +198,7 @@ export const rent = [
     rentPhone: "+84 1235567",
     rentSquare: 55,
     rentAddress:
-      "Dự án Masteri Thảo Điền, Đường Thảo Điền, Phường Thảo Điền, Quận 2, Hồ Chí Minh",
+      "Dự án Masteri Thảo Điền, Đường Thảo Điền, Phường Thảo Điền",
     rentAddDis: "Quận 2",
     rentAddCity: "Hồ Chí Minh",
     rentTitle: `NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
@@ -210,20 +210,20 @@ export const rent = [
       Chìa khóa có sẵn do khách gửi, hỗ trợ xem nhà 24/7 miễn phí.
       Đặc biệt: Hỗ trợ hồ sơ trọn gói.`,
   },{
-    houseid: 4,
-    houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/07/20201007142708-cf07_wm.jpg",
-    housePrice: 4.35,
-    houseBedroom: 2,
-    houseBathroom: 2,
-    houseFloor: 1,
-    housePhone: "+84 1235567",
-    houseSquare: 92,
-    houseAddress: "So 3 Khu C phố D ",
-    houseAddDis: "Quận 2",
-    houseAddCity: "Hồ Chí Minh",
-    houseTitle: `2PN 92M2 4.350 TỶ THÁP LOTUS - DUPLEX 2PN 4.5 TỶ BAO HẾT`,
-    houseDescript: `Căn 1/.
+    rentid: 4,
+    rentImg:
+      "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&auto=format&fit=crop&w=1046&q=80",
+    rentPrice: 4.35,
+    rentBedroom: 2,
+    rentBathroom: 2,
+    rentFloor: 1,
+    rentPhone: "+84 1235567",
+    rentSquare: 92,
+    rentAddress: "So 3 Khu C phố D ",
+    rentAddDis: "Quận 2",
+    rentAddCity: "Hồ Chí Minh",
+    rentTitle: `2PN 92M2 4.350 TỶ THÁP LOTUS - DUPLEX 2PN 4.5 TỶ BAO HẾT`,
+    rentDescript: `Căn 1/.
     2PN, DT 92m2, tháp Lotus là tháp mới và cao cấp nhất dự án.
     Nhà bố trí layout rất hợp lý, đối lưu gió tốt.
     2 phòng ngủ được tách ra 2 bên, phòng khách ở giữa.
@@ -231,20 +231,20 @@ export const rent = [
     Chốt nhanh 4.350 tỷ. Có 2 option tầng trung và tầng cao.`,
   },
   {
-    houseid: 4,
-    houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/12/20201012093114-7b9a_wm.jpg",
-    housePrice: 3.3,
-    houseBedroom: 2,
-    houseBathroom: 2,
-    houseFloor: 1,
-    housePhone: "+84 1235567",
-    houseSquare: 55,
-    houseAddress: "chung cư 39C Hai Bà Trưng, Hoàn Kiếm",
-    houseAddDis: "Hoàn Kiếm",
-    houseAddCity: "Hà Nội",
-    houseTitle: `Chính chủ bán chung cư 39C Hai Bà Trưng, Hoàn Kiếm DT 55m2 tầng 2`,
-    houseDescript: `Hiện tại gia đình tôi đang cần bán căn hộ tại chung cư 39C Hai Bà Trưng, phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội.
+    rentid: 4,
+    rentImg:
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80",
+    rentPrice: 3.3,
+    rentBedroom: 2,
+    rentBathroom: 2,
+    rentFloor: 1,
+    rentPhone: "+84 1235567",
+    rentSquare: 55,
+    rentAddress: "chung cư 39C Hai Bà Trưng",
+    rentAddDis: "Hoàn Kiếm",
+    rentAddCity: "Hà Nội",
+    rentTitle: `Chính chủ bán chung cư 39C Hai Bà Trưng, Hoàn Kiếm DT 55m2 tầng 2`,
+    rentDescript: `Hiện tại gia đình tôi đang cần bán căn hộ tại chung cư 39C Hai Bà Trưng, phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội.
     Diện tích 55m2, thiết kế 2 phòng ngủ, 1 nhà vệ sinh, 1 phòng khách, 1 bếp.
     Nội thất bao gồm sàn gỗ, bàn ghế, điều hòa, giường tủ, tủ bếp... 
     Nằm ngay mặt đường Hai Bà Trưng, rất thuận tiện đi lại, gần các cơ quan đầu não quốc gia, bờ hồ... 
@@ -252,40 +252,40 @@ export const rent = [
     Tình trạng sở hữu lâu dài`,
   },
   {
-    houseid: 4,
-    houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/04/21/20200421153814-c1cc_wm.jpg",
-    housePrice: 3.1,
-    houseBedroom: 2,
-    houseBathroom: 2,
-    houseFloor: 3,
-    housePhone: "+84 1235567",
-    houseSquare: 65,
-    houseAddress:
-      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông, Sơn Trà, Đà Nẵng",
-    houseAddDis: "Sơn Trà",
-    houseAddCity: "Đà Nẵng",
-    houseTitle: `Bán căn hộ Hiyori tiêu chuẩn Nhật Bản, khả năng cho thuê tốt`,
-    houseDescript: `Vị trí: 4 mặt tiền tuyến đường vàng Võ Văn Kiệt, kết nối sân bay biển thành phố Hội An.
+    rentid: 4,
+    rentImg:
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    rentPrice: 3.1,
+    rentBedroom: 2,
+    rentBathroom: 2,
+    rentFloor: 3,
+    rentPhone: "+84 1235567",
+    rentSquare: 65,
+    rentAddress:
+      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông",
+    rentAddDis: "Sơn Trà",
+    rentAddCity: "Đà Nẵng",
+    rentTitle: `Bán căn hộ Hiyori tiêu chuẩn Nhật Bản, khả năng cho thuê tốt`,
+    rentDescript: `Vị trí: 4 mặt tiền tuyến đường vàng Võ Văn Kiệt, kết nối sân bay biển thành phố Hội An.
     Vị trí nằm giữa cung đường huyết mạch thẳng từ Nguyễn Văn Linh đến Võ Văn Kiệt ra biển Mỹ Khê, chỉ mất 5 phút đi bộ ra biển.
     Nối liền trung tâm du lịch & trung tâm hành chính của thành phố Đà Nẵng.`,
   },
   {
-    houseid: 5,
-    houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/09/22/20200922161240-bd53_wm.jpg",
-    housePrice: 3.9,
-    houseBedroom: 2,
-    houseBathroom: 2,
-    houseFloor: 1,
-    housePhone: "+84 1235567",
-    houseSquare: 63,
-    houseAddress:
-      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông, Sơn Trà, Đà Nẵng",
-    houseAddDis: "Sơn Trà",
-    houseAddCity: "Đà Nẵng",
-    houseTitle: `Chuyển nhà về quê sống nên cần bán căn hộ Hiyori 2PN full nội thất đẹp`,
-    houseDescript: `Bán căn hộ 2PN Hiyori Garden Tower full nội thất đẹp, chỉ cần mang quần áo đến ở.
+    rentid: 5,
+    rentImg:
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+    rentPrice: 3.9,
+    rentBedroom: 2,
+    rentBathroom: 2,
+    rentFloor: 1,
+    rentPhone: "+84 1235567",
+    rentSquare: 63,
+    rentAddress:
+      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông",
+    rentAddDis: "Sơn Trà",
+    rentAddCity: "Đà Nẵng",
+    rentTitle: `Chuyển nhà về quê sống nên cần bán căn hộ Hiyori 2PN full nội thất đẹp`,
+    rentDescript: `Bán căn hộ 2PN Hiyori Garden Tower full nội thất đẹp, chỉ cần mang quần áo đến ở.
 
     Thông tin dự án Hiyori Garden Tower.
     Hiyori Garden Tower Đà Nẵng tọa lạc trên đường Võ Văn Kiệt, phường An Hải Đông, quận Sơn Trà, TP. Đà Nẵng. Khi đi vào hoạt động, dự án sẽ là một công trình có quy mô, điểm nhấn kiến trúc cảnh quan Đà Nẵng và hoàn chỉnh quy hoạch khu vực.
@@ -303,38 +303,38 @@ export const rent = [
     Tổng diện tích sàn: 33376m2.`,
   },
   {
-    houseid: 5,
-    houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/09/20201009101344-349f_wm.jpg",
-    housePrice: 3,
-    houseBedroom: 2,
-    houseBathroom: 2,
-    houseFloor: 1,
-    housePhone: "+84 1235567",
-    houseSquare: 63,
-    houseAddress: "Dự án Fusion Suites Da Nang Beach, Sơn Trà, Đà Nẵng",
-    houseAddDis: "Sơn Trà",
-    houseAddCity: "Đà Nẵng",
-    houseTitle: `Bán căn hộ Fusion Suite , Võ Nguyen Giáp thành phố Đà Nẵng sở hưu lâu dài tiêu chuẩn 4 sao`,
-    houseDescript: `Cần bán căn hộ Fusion suite tâng11,12 view trực diẹn biển giá từ 3.1 tỉ
+    rentid: 5,
+    rentImg:
+      "https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80",
+    rentPrice: 3,
+    rentBedroom: 2,
+    rentBathroom: 2,
+    rentFloor: 1,
+    rentPhone: "+84 1235567",
+    rentSquare: 63,
+    rentAddress: "Dự án Fusion Suites Da Nang Beach",
+    rentAddDis: "Sơn Trà",
+    rentAddCity: "Đà Nẵng",
+    rentTitle: `Bán căn hộ Fusion Suite , Võ Nguyen Giáp thành phố Đà Nẵng sở hưu lâu dài tiêu chuẩn 4 sao`,
+    rentDescript: `Cần bán căn hộ Fusion suite tâng11,12 view trực diẹn biển giá từ 3.1 tỉ
     tiện tích : Hồ bơi riêng, bãi tắm riêng, nhà hàng, coffee, spa, yoga riêng của toà căn hộ do Fusion Suite vận hành.`,
   },
   {
-    houseid: 5,
-    houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/01/20201001112943-e01c_wm.jpg",
-    housePrice: 4.32,
-    houseBedroom: 3,
-    houseBathroom: 3,
-    houseFloor: 1,
-    housePhone: "+84 1235567",
-    houseSquare: 132,
-    houseAddress:
-      "Dự án Blooming Tower, Đường Xuân Diệu, Phường Thuận Phước, Hải Châu, Đà Nẵng",
-    houseAddDis: "Hải Châu",
-    houseAddCity: "Đà Nẵng",
-    houseTitle: `Bán chung cư Blooming Tower Đà Nẵng 3 phòng ngủ`,
-    houseDescript: `
+    rentid: 5,
+    rentImg:
+      "https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
+    rentPrice: 4.32,
+    rentBedroom: 3,
+    rentBathroom: 3,
+    rentFloor: 1,
+    rentPhone: "+84 1235567",
+    rentSquare: 132,
+    rentAddress:
+      "Dự án Blooming Tower, Đường Xuân Diệu, Phường Thuận Phước",
+    rentAddDis: "Hải Châu",
+    rentAddCity: "Đà Nẵng",
+    rentTitle: `Bán chung cư Blooming Tower Đà Nẵng 3 phòng ngủ`,
+    rentDescript: `
     Bán chung cư Blooming Tower Đà Nẵng. Căn hộ rộng 135m2, bao gồm 1 phòng khách, 1 phòng bếp, 3 phòng ngủ, 2 phòng vệ sinh. View đẹp, tầng cao. Nội thất đẹp đầy đủ, chỉ xách vali vào ở.
     Chung cư Blooming nằm ngay sát chân cầu Thuận Phước, gần biển Nguyễn Tất Thành. Vị trí đẹp, yên tĩnh, mát mẻ.
     Giá tốt để đầu tư.
@@ -343,20 +343,21 @@ export const rent = [
     Địa chỉ: Tầng 4 Kim Sơn Building, 16 - 18 Phan Thành Tài - Q. Hải Châu - TP Đà Nẵng.`,
   },
   {
-    houseid: 2,
-    houseImg:
-      "https://file4.batdongsan.com.vn/2020/09/30/20200930150208-1da4_wm.jpg",
-    housePrice: 4.6,
-    houseBedroom: 2,
-    houseBathroom: 2,
-    houseFloor: 1,
-    housePhone: "+84 1235567",
-    houseSquare: 108,
-    houseAddress:
-      "Dự án Lakeview City, Đường Song Hành, Phường An Phú, Quận 2, Hồ Chí Minh",
-    houseAddDis: "Hải Châu",
-    houseAddCity: "Đà Nẵng",
-    houseTitle: `Bán căn hộ Indochina đường Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng. Căn hộ tầng cao rộng 108m2, view đẹp. Thiết kế gồm có 1 phòng khách, 1 phòng bếp, 2 phòng ngủ và 2 phòng vệ sinh. Full nội thất đẹp.
+    rentid: 2,
+    rentImg:
+      "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+    rentPrice: 4.6,
+    rentBedroom: 2,
+    rentBathroom: 2,
+    rentFloor: 1,
+    rentPhone: "+84 1235567",
+    rentSquare: 108,
+    rentAddress:
+      "Dự án Lakeview City, Đường Song Hành, Phường An Phú",
+    rentAddDis: "Hải Châu",
+    rentAddCity: "Đà Nẵng",
+    rentTitle: `Bán căn hộ Indochina đường Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng`,
+    rentDescript: `Căn hộ tầng cao rộng 108m2, view đẹp. Thiết kế gồm có 1 phòng khách, 1 phòng bếp, 2 phòng ngủ và 2 phòng vệ sinh. Full nội thất đẹp.
     Căn hộ Indochina là căn hộ cao cấp nằm ngay trung tâm thành phố, sát sông Hàn. Đầy đủ tiện ích, công năng sử dụng. An ninh 24/24.
     Thuận tiện giao thương đi lại.
     Thích hợp mua ở hoặc đầu tư.
@@ -365,21 +366,21 @@ export const rent = [
     Địa chỉ: Tầng 4 Kim Sơn Building, 16 - 18 Phan Thành Tài - Q. Hải Châu - TP Đà Nẵng.`,
   },
   {
-    houseid: 1,
-    houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2019/05/25/20190525150342-d9ad_wm.jpg",
-    housePrice: 2.25,
-    houseBedroom: 2,
-    houseBathroom: 2,
-    houseFloor: 1,
-    housePhone: "+84 1235567",
-    houseSquare: 63,
-    houseAddress:
-      "Dự án F.Home, Phố Lý Thường Kiệt, Phường Thạch Thang, Hải Châu, Đà Nẵng",
-    houseAddDis: "Hải Châu",
-    houseAddCity: "Đà Nẵng",
-    houseTitle: `Sang nhượng căn hộ F.Home Lý Thường Kiệt, full nội thất giá sụp hầm covid`,
-    houseDescript: `Bán căn hộ Fhome giá tốt để mua đầu tư hoặc ở, do nhà có việc gấp nên bán nhanh cho khách thiện chí mua thực sựm không đi xem dạo giá cho vui.
+    rentid: 1,
+    rentImg:
+      "https://images.unsplash.com/photo-1542853647-47ad77242390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
+    rentPrice: 2.25,
+    rentBedroom: 2,
+    rentBathroom: 2,
+    rentFloor: 1,
+    rentPhone: "+84 1235567",
+    rentSquare: 63,
+    rentAddress:
+      "Dự án F.Home, Phố Lý Thường Kiệt, Phường Thạch Thang",
+    rentAddDis: "Hải Châu",
+    rentAddCity: "Đà Nẵng",
+    rentTitle: `Sang nhượng căn hộ F.Home Lý Thường Kiệt, full nội thất giá sụp hầm covid`,
+    rentDescript: `Bán căn hộ Fhome giá tốt để mua đầu tư hoặc ở, do nhà có việc gấp nên bán nhanh cho khách thiện chí mua thực sựm không đi xem dạo giá cho vui.
     Khu căn hộ cho khách nước ngoài thuê 80%, tiện ích nội khu có sẵn hồ bơi, phòng gym, spa, trường học quốc tế. Căn hộ ngay trung tâm thành phố rất thuận tiện cho khách hàng di chuyển đưa đón con đi học hoặc đi làm.
     Diện tích căn hộ: 63m2.
     Thiết kế: 2 phòng ngủ, 1 phòng khách, 1 phòng bếp, 2 wc.

@@ -2,7 +2,7 @@ export const house = [
   {
     houseid: 1,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/05/07/vVMfcTGI/20200507155707-2542_wm.jpg",
+      "https://images.unsplash.com/photo-1501183638710-841dd1904471?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     housePrice: 4.2,
     houseBedroom: 3,
     houseBathroom: 2,
@@ -22,14 +22,14 @@ export const house = [
   {
     houseid: 1,
     houseImg:
-      "https://images.adsttc.com/media/images/5e1d/02c3/3312/fd58/9c00/06e9/slideshow/NewHouse_SA_Photo_01.jpg?1578959519",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     housePrice: 5.5,
     houseBedroom: 5,
     houseBathroom: 3,
     houseFloor: 3,
     housePhone: "+84 1534567",
     houseSquare: 40,
-    houseAddress: "So 2 Khu B phố C quận Thanh Xuân tp Hà Nội",
+    houseAddress: "So 2 Khu B phố C",
     houseAddDis: "Thanh Xuân",
     houseAddCity: "Hà Nội",
     houseTitle: `Nhà 3 tầng 1 tỷ 50tr sổ đỏ bao tên đối diện AEON Mall Hà Đông`,
@@ -39,7 +39,7 @@ export const house = [
   {
     houseid: 2,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/09/14/20200914161906-2702_wm.jpg",
+      "https://images.unsplash.com/photo-1503174971373-b1f69850bded?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1087&q=80",
     housePrice: 2.1,
     houseBedroom: 2,
     houseBathroom: 1,
@@ -63,14 +63,14 @@ export const house = [
   {
     houseid: 2,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=973&q=80",
     housePrice: 33.5,
     houseBedroom: 4,
     houseBathroom: 4,
     houseFloor: 2,
     housePhone: "+84 1235567",
     houseSquare: 31,
-    houseAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    houseAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo",
     houseAddDis: "Hoàn Kiếm",
     houseAddCity: "Hà Nội",
     houseTitle: `BÁN NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
@@ -85,14 +85,14 @@ export const house = [
   {
     houseid: 3,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80",
     housePrice: 20,
     houseBedroom: 7,
     houseBathroom: 5,
     houseFloor: 3,
     housePhone: "+84 1235567",
     houseSquare: 186.4,
-    houseAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    houseAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo",
     houseAddDis: "Hoàn Kiếm",
     houseAddCity: "Hà Nội",
     houseTitle: `100% CHÍNH CHỦ BÁN NHANH SONG LẬP ÁP GÓC KHU TULIP 03 - 32 TÂY BẮC 20 TỶ`,
@@ -108,7 +108,7 @@ export const house = [
   {
     houseid: 3,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/09/21/20200921110355-033c_wm.jpg",
+      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80",
     housePrice: 7.2,
     houseBedroom: 4,
     houseBathroom: 3,
@@ -116,7 +116,7 @@ export const house = [
     housePhone: "+84 1235567",
     houseSquare: 90,
     houseAddress:
-      "Thống Nhất Complex, số 82, Đường Nguyễn Tuân, Phường Thanh Xuân Trung, Thanh Xuân, Hà Nội",
+      "Thống Nhất Complex, số 82, Đường Nguyễn Tuân, Phường Thanh Xuân Trung",
     houseAddDis: "Thanh Xuân",
     houseAddCity: "Hà Nội",
     houseTitle: `Bán liền kề 88m2 thấp tầng tổ hợp nhà LK trung tâm thương mại Thống Nhất Complex số 82 Nguyễn Tuân`,
@@ -133,14 +133,14 @@ export const house = [
   {
     houseid: 3,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/09/20201009135808-ea5f_wm.jpg",
+      "https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80",
     housePrice: 22.5,
     houseBedroom: 7,
     houseBathroom: 5,
     houseFloor: 6,
     housePhone: "+84 1235567",
     houseSquare: 75,
-    houseAddress: "HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO QUẬN 1",
+    houseAddress: "HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO",
     houseAddDis: "Quận 1",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO QUẬN 1, DT: 4.5 X 17M, 3 TẦNG, HẺM 3 M SAU NHÀ.`,
@@ -154,14 +154,14 @@ export const house = [
   {
     houseid: 3,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/10/20201010093806-3fd4_wm.jpg",
+      "https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     housePrice: 22.5,
     houseBedroom: 6,
     houseBathroom: 6,
     houseFloor: 6,
     housePhone: "+84 1235567",
     houseSquare: 170,
-    houseAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội",
+    houseAddress: "Phố Lý Thường Kiệt, Phường Trần Hưng Đạo",
     houseAddDis: "Quận 1",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `BÁN 170M2 ĐẤT TIỆN XÂY MỚI, ĐƯỜNG HAI BÀ TRƯNG, QUẬN 1`,
@@ -172,7 +172,7 @@ export const house = [
   {
     houseid: 2,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/06/20201006153459-3276_wm.jpg",
+      "https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     housePrice: 18,
     houseBedroom: 5,
     houseBathroom: 3,
@@ -180,7 +180,7 @@ export const house = [
     housePhone: "+84 1235567",
     houseSquare: 168,
     houseAddress:
-      "Dự án Lakeview City, Đường Song Hành, Phường An Phú, Quận 2, Hồ Chí Minh",
+      "Dự án Lakeview City, Đường Song Hành, Phường An Phú",
     houseAddDis: "Quận 2",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `BÁN NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
@@ -193,7 +193,7 @@ export const house = [
   {
     houseid: 1,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/02/20201002095102-39bf_wm.jpg",
+      "https://images.unsplash.com/photo-1467987506553-8f3916508521?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     housePrice: 2.9,
     houseBedroom: 1,
     houseBathroom: 1,
@@ -201,7 +201,7 @@ export const house = [
     housePhone: "+84 1235567",
     houseSquare: 55,
     houseAddress:
-      "Dự án Masteri Thảo Điền, Đường Thảo Điền, Phường Thảo Điền, Quận 2, Hồ Chí Minh",
+      "Dự án Masteri Thảo Điền, Đường Thảo Điền, Phường Thảo Điền",
     houseAddDis: "Quận 2",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `BÁN NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
@@ -216,7 +216,7 @@ export const house = [
   {
     houseid: 4,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/07/20201007142708-cf07_wm.jpg",
+      "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&auto=format&fit=crop&w=1046&q=80",
     housePrice: 4.35,
     houseBedroom: 2,
     houseBathroom: 2,
@@ -237,14 +237,14 @@ export const house = [
   {
     houseid: 4,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/745x510/2020/10/12/20201012093114-7b9a_wm.jpg",
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80",
     housePrice: 3.3,
     houseBedroom: 2,
     houseBathroom: 2,
     houseFloor: 1,
     housePhone: "+84 1235567",
     houseSquare: 55,
-    houseAddress: "chung cư 39C Hai Bà Trưng, Hoàn Kiếm",
+    houseAddress: "chung cư 39C Hai Bà Trưng",
     houseAddDis: "Hoàn Kiếm",
     houseAddCity: "Hà Nội",
     houseTitle: `Chính chủ bán chung cư 39C Hai Bà Trưng, Hoàn Kiếm DT 55m2 tầng 2`,
@@ -258,7 +258,7 @@ export const house = [
   {
     houseid: 4,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/04/21/20200421153814-c1cc_wm.jpg",
+      "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     housePrice: 3.1,
     houseBedroom: 2,
     houseBathroom: 2,
@@ -266,7 +266,7 @@ export const house = [
     housePhone: "+84 1235567",
     houseSquare: 65,
     houseAddress:
-      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông, Sơn Trà, Đà Nẵng",
+      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông",
     houseAddDis: "Sơn Trà",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Bán căn hộ Hiyori tiêu chuẩn Nhật Bản, khả năng cho thuê tốt`,
@@ -277,7 +277,7 @@ export const house = [
   {
     houseid: 5,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/09/22/20200922161240-bd53_wm.jpg",
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
     housePrice: 3.9,
     houseBedroom: 2,
     houseBathroom: 2,
@@ -285,7 +285,7 @@ export const house = [
     housePhone: "+84 1235567",
     houseSquare: 63,
     houseAddress:
-      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông, Sơn Trà, Đà Nẵng",
+      "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông",
     houseAddDis: "Sơn Trà",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Chuyển nhà về quê sống nên cần bán căn hộ Hiyori 2PN full nội thất đẹp`,
@@ -309,14 +309,14 @@ export const house = [
   {
     houseid: 5,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/09/20201009101344-349f_wm.jpg",
+      "https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80",
     housePrice: 3,
     houseBedroom: 2,
     houseBathroom: 2,
     houseFloor: 1,
     housePhone: "+84 1235567",
     houseSquare: 63,
-    houseAddress: "Dự án Fusion Suites Da Nang Beach, Sơn Trà, Đà Nẵng",
+    houseAddress: "Dự án Fusion Suites Da Nang Beach",
     houseAddDis: "Sơn Trà",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Bán căn hộ Fusion Suite , Võ Nguyen Giáp thành phố Đà Nẵng sở hưu lâu dài tiêu chuẩn 4 sao`,
@@ -326,7 +326,7 @@ export const house = [
   {
     houseid: 5,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2020/10/01/20201001112943-e01c_wm.jpg",
+      "https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
     housePrice: 4.32,
     houseBedroom: 3,
     houseBathroom: 3,
@@ -334,7 +334,7 @@ export const house = [
     housePhone: "+84 1235567",
     houseSquare: 132,
     houseAddress:
-      "Dự án Blooming Tower, Đường Xuân Diệu, Phường Thuận Phước, Hải Châu, Đà Nẵng",
+      "Dự án Blooming Tower, Đường Xuân Diệu, Phường Thuận Phước",
     houseAddDis: "Hải Châu",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Bán chung cư Blooming Tower Đà Nẵng 3 phòng ngủ`,
@@ -349,7 +349,7 @@ export const house = [
   {
     houseid: 2,
     houseImg:
-      "https://file4.batdongsan.com.vn/2020/09/30/20200930150208-1da4_wm.jpg",
+      "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     housePrice: 4.6,
     houseBedroom: 2,
     houseBathroom: 2,
@@ -357,7 +357,7 @@ export const house = [
     housePhone: "+84 1235567",
     houseSquare: 108,
     houseAddress:
-      "Dự án Lakeview City, Đường Song Hành, Phường An Phú, Quận 2, Hồ Chí Minh",
+      "Dự án Lakeview City, Đường Song Hành, Phường An Phú",
     houseAddDis: "Hải Châu",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Bán căn hộ Indochina đường Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng. Căn hộ tầng cao rộng 108m2, view đẹp. Thiết kế gồm có 1 phòng khách, 1 phòng bếp, 2 phòng ngủ và 2 phòng vệ sinh. Full nội thất đẹp.
@@ -371,7 +371,7 @@ export const house = [
   {
     houseid: 1,
     houseImg:
-      "https://file4.batdongsan.com.vn/resize/200x200/2019/05/25/20190525150342-d9ad_wm.jpg",
+      "https://images.unsplash.com/photo-1542853647-47ad77242390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
     housePrice: 2.25,
     houseBedroom: 2,
     houseBathroom: 2,
@@ -379,7 +379,7 @@ export const house = [
     housePhone: "+84 1235567",
     houseSquare: 63,
     houseAddress:
-      "Dự án F.Home, Phố Lý Thường Kiệt, Phường Thạch Thang, Hải Châu, Đà Nẵng",
+      "Dự án F.Home, Phố Lý Thường Kiệt, Phường Thạch Thang",
     houseAddDis: "Hải Châu",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Sang nhượng căn hộ F.Home Lý Thường Kiệt, full nội thất giá sụp hầm covid`,

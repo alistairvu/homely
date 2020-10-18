@@ -15,8 +15,8 @@ for (let i = 0; i < limit; i += 3) {
         <div class="card-body">
           <img src="${
             listing.rentImg
-          }" class="card-img-top" width="150" height="200"/>
-          <h5 class="listing-title"> <a href="rental/${
+          }" class="card-img-top" width="100" height="130"/>
+          <h5 class="listing-title" style = "margin: 10px auto 9px;"> <a href="rental/${
             rent.indexOf(listing) + 1
           }.html"> ${listing.rentTitle}</a> </h5>
           <p class="brief-info">
