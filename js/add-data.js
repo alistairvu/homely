@@ -27,8 +27,7 @@ uploadBtn.onclick(function () {
 //       newListing.rentTitle = document.getElementById("title").value;
 //       newListing.rentDescript = document.getElementById("description").value;
 //       newListing.rentImg = document.getElementById("images").value;
-//       rent.push(newListing);
-//       console.log(rent);
+     
 //       break;
 //     case "For Sale":
 //       newListing.houseId = 0;
@@ -44,8 +43,7 @@ uploadBtn.onclick(function () {
 //       newListing.houseTitle = document.getElementById("title").value;
 //       newListing.houseDescript = document.getElementById("description").value;
 //       newListing.houseImg = document.getElementById("images").value;
-//       house.push(newListing);
-//       console.log(house);
+      
 //       break;
 //   }
 // };
