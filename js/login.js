@@ -23,10 +23,12 @@ function formLogIn() {
     switch (match.role) {
       case "admin":
         alert("Hello, admin!");
+        localStorage.setItem("login-status", match.id);
         window.location.href = "./admin-page.html";
         break;
       case "user":
         alert(`Welcome, ${match.name}`);
+        localStorage.setItem("login-status", match.id);
         window.location.href = "./user-page.html";
         break;
     }
@@ -36,5 +38,3 @@ function formLogIn() {
 }
 
 submitBtn.addEventListener("click", formLogIn);
-
-localStorage.setItem("login-status", match.id);
