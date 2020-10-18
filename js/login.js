@@ -36,3 +36,5 @@ function formLogIn() {
 }
 
 submitBtn.addEventListener("click", formLogIn);
+
+localStorage.setItem("login-status", match.id);
