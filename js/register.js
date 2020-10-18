@@ -37,6 +37,14 @@ function checkPassword() {
 
 confirmPassword.onkeypress = checkPassword();
 
+function getMaxID() {
+  if (localStorage.getItem("max-id") === null) {
+    localStorage.setItem("max-id", accounts.length - 1);
+  }
+  localStorage.setItem("max-id", parseInt(localStorage.getItem("max-id")) + 1);
+  return parseInt(localStorage.getItem("max-id"));
+}
+
 function registerAcc() {
   if (!checkDuplicate()) {
     alert("Username already in use!");
@@ -53,12 +61,12 @@ function registerAcc() {
   const newUser = {
     name: newUserName.value,
     pass: newPassword.value,
-    id: accounts.length + 1,
+    id: getMaxID(),
     role: "user",
   };
   localStorage.setItem(`${newUser.name}`, JSON.stringify(newUser));
-  alert("Registration successful!");
-  window.location.href = "./user-page.html";
+  alert("Registration successful! Please log in.");
+  window.location.href = "./login.html";
 }
 
 createBtn.addEventListener("click", registerAcc);
