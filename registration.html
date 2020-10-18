@@ -18,29 +18,39 @@
   <body>
     <nav class="navbar navbar-expand-lg" id="navbar">
       <a href="index.html" class="navbar-brand">Homely</a>
+      <li class="nav-item active" style="display: none">
+        <p id="login-btn"></p>
+      </li>
     </nav>
     <div class="register-box">
       <h1>Create an account.</h1>
       <form id="register-form">
         <label for="name">Username(<font color="red">*</font>):</label>
         <input type="text" id="name" placeholder="Username" required /> <br />
-        <label for="email">Email address(<font color="red">*</font>):</label>
-        <input type="email" id="mail" placeholder="Email address" required />
-        <br />
         <label for="fname"> Full name(<font color="red">*</font>):</label>
         <input type="text" id="full-name" placeholder="Full name" required />
         <br />
         <label for="password">Password(<font color="red">*</font>):</label>
         <input type="password" id="pass" placeholder="Password" required />
+        <em style="font-size: 11px"
+          >Your password should be: at least 8 characters long; has at least one
+          capital letter; and has at least one lowercase letter.</em
+        >
         <br />
         <label for="password">
           Re-enter password(<font color="red">*</font>):</label
         >
-        <input type="password" id="confirmPassword" placeholder="Re-enter password" required />
+        <input
+          type="password"
+          id="confirmPassword"
+          placeholder="Re-enter password"
+          required
+        />
+        <div id="password-match"></div>
         <br />
-        <label for="date">Date of birth(<font color="red">*</font>):</label>
-        <input type="date" id="date" required /> <br />
-        <input type="submit" id="create-btn" onclick="formRegister" value="Create account" />
+        <button type="button" id="create-btn" value="Create account">
+          Submit
+        </button>
       </form>
       <div class="notice">
         <p class="policy">
@@ -49,5 +59,6 @@
         </p>
       </div>
     </div>
+    <script type="module" src="js/register.js"></script>
   </body>
 </html>
