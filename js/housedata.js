@@ -13,11 +13,9 @@ export const house = [
     houseAddDis: "Thanh Xuân",
     houseAddCity: "Hà Nội",
     houseTitle: `Cực hiếm, 40 m2 lô góc, 3 mặt thoáng, oto vào nhà, 4 tầng xây mới. Ngõ 302 Nguyễn Trãi, Thanh Xuân, Hà Nội`,
-    houseDiscrible: 
-         ` BÁN NHÀ ĐẸP CHÍNH CHỦ QUẬN THANH XUÂN. 
+    houseDiscrible: ` BÁN NHÀ ĐẸP CHÍNH CHỦ QUẬN THANH XUÂN. 
          
-         Cần bán nhà chính chủ 4x10 `
-        
+         Cần bán nhà chính chủ 4x10 `,
   },
   {
     houseid: 1,
@@ -33,7 +31,7 @@ export const house = [
     houseAddDis: "Thanh Xuân",
     houseAddCity: "Hà Nội",
     houseTitle: `Nhà 3 tầng 1 tỷ 50tr sổ đỏ bao tên đối diện AEON Mall Hà Đông`,
-    houseDiscrible: `Nhà vị trí cực đẹp, cực hiếm. <br>
+    houseDescript: `Nhà vị trí cực đẹp, cực hiếm. <br>
             Xây 5 tầng khung bê tông chắc chắn, bao đẹp, NT toàn gỗ Lim nguyên khối`,
   },
   {
@@ -50,7 +48,7 @@ export const house = [
     houseAddDis: "Quận 1",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `CHÍNH CHỦ BÁN NHÀ XÂY MỚI 32M2 X 5 TẦNG TẠI TƯ ĐÌNH LONG BIÊN`,
-    houseDiscrible: `Tôi cần bán căn nhà 5 tầng xây mới diện tích 32m2 căn góc 2 mặt thoáng (DTSD 160m2) tại ngõ 129 đường Bát Khối, khu Tư Đình, Long Biên giá 2,5 tỷ đồng. <br>
+    houseDescript: `Tôi cần bán căn nhà 5 tầng xây mới diện tích 32m2 căn góc 2 mặt thoáng (DTSD 160m2) tại ngõ 129 đường Bát Khối, khu Tư Đình, Long Biên giá 2,5 tỷ đồng. <br>
             Tầng 1: Phòng khách và bếp ( bếp đã lắp đặt tủ bếp, hút mùi và bếp từ đôi, chậu rửa bát hai hố và vòi rửa bát nóng lạnh) <br>
             Tầng 2 + tầng 3 + tầng 4: mỗi tầng có 1 phòng ngủ lớn 18m2 lát sàn gỗ và điều hòa các tầng cùng 1 phòng vệ sinh sang trọng với bộ thiết bị cao cấp, nóng lạnh các tầng và cabin tắm. <br>
             Tầng 5: Sân phơi rộng lớn được che bởi tôn mát 2 lớp và sắt bảo vệ xung quanh. <br>
@@ -74,7 +72,7 @@ export const house = [
     houseAddDis: "Hoàn Kiếm",
     houseAddCity: "Hà Nội",
     houseTitle: `BÁN NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
-    houseDiscrible: `Bán nhà mặt phố tại số 39 Lý Thường Kiệt, quận Hoàn Kiếm, thành phố Hà Nội. <br>
+    houseDescript: `Bán nhà mặt phố tại số 39 Lý Thường Kiệt, quận Hoàn Kiếm, thành phố Hà Nội. <br>
 
             Vị trí đắc địa nằm ngay trung tâm thành phố, dân cư đông đúc, giao thông thuận tiện, đường 2 chiều oto, mặt tiền cực thoáng, vỉa hè rộng, khu dân trí cao. Tiện mở văn phòng, kinh doanh... <br>
             
@@ -96,7 +94,7 @@ export const house = [
     houseAddDis: "Hoàn Kiếm",
     houseAddCity: "Hà Nội",
     houseTitle: `100% CHÍNH CHỦ BÁN NHANH SONG LẬP ÁP GÓC KHU TULIP 03 - 32 TÂY BẮC 20 TỶ`,
-    houseDiscrible: `Sở hữu rất nhiều tiện ích như: <br>
+    houseDescript: `Sở hữu rất nhiều tiện ích như: <br>
     - Cluhouse rộng tới gần 10.000m2, hồ điều 12.4Ha cách 50m. <br>
     - Quảng trường trung tâm hướng hồ điều hòa. <br>
     - Khu thể thao, sân tập golf, sân tennis, công viên, vườn hoa. <br>
@@ -120,7 +118,7 @@ export const house = [
     houseAddDis: "Thanh Xuân",
     houseAddCity: "Hà Nội",
     houseTitle: `Bán liền kề 88m2 thấp tầng tổ hợp nhà LK trung tâm thương mại Thống Nhất Complex số 82 Nguyễn Tuân`,
-    houseDiscrible: `Bán liền kề 88m2 nhà ở thấp tầng tổ hợp nhà liền kề trung tâm thương mại và nhà ở Thống Nhất Complex số 82 Nguyễn Tuân - Quận Thanh Xuân - Hà Nội. <br>
+    houseDescript: `Bán liền kề 88m2 nhà ở thấp tầng tổ hợp nhà liền kề trung tâm thương mại và nhà ở Thống Nhất Complex số 82 Nguyễn Tuân - Quận Thanh Xuân - Hà Nội. <br>
     - Chủ đầu tư Công Ty Thống Nhất Bắc Việt. <br>
     - Vị trí số 82 đường Nguyễn Tuân - Thanh Xuân. <br>
     - Diện tích: 88m2 xây 5 tầng có thang máy. <br>
@@ -144,7 +142,7 @@ export const house = [
     houseAddDis: "Quận 1",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `HXH NGUYỄN ĐÌNH CHIỂU ĐAKAO QUẬN 1, DT: 4.5 X 17M, 3 TẦNG, HẺM 3 M SAU NHÀ.`,
-    houseDiscrible: `HXH 5m Nguyễn Đình Chiểu ĐaKao Quận 1, <br>
+    houseDescript: `HXH 5m Nguyễn Đình Chiểu ĐaKao Quận 1, <br>
 
     + DT: 4.5 x 17m, 3 tầng, Hẻm 3 m sau nhà. <br>
     + Khu phố an ninh, sạch đẹp. <br>
@@ -165,7 +163,7 @@ export const house = [
     houseAddDis: "Quận 1",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `BÁN 170M2 ĐẤT TIỆN XÂY MỚI, ĐƯỜNG HAI BÀ TRƯNG, QUẬN 1`,
-    houseDiscrible: `Bán 170m2, ngang 5.5m. Đất xây mới đường Hai Bà Trưng Quận 1, bán gấp 22.5 tỷ chính chủ. <br>
+    houseDescript: `Bán 170m2, ngang 5.5m. Đất xây mới đường Hai Bà Trưng Quận 1, bán gấp 22.5 tỷ chính chủ. <br>
 
     Tiện xây mới 6 tầng, căn hộ dịch vụ, khách sạn, văn phòng hoặc an cư.`,
   },
@@ -183,7 +181,7 @@ export const house = [
     houseAddDis: "Quận 2",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `BÁN NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
-    houseDiscrible: `Nhà phố phố view hồ Lakeview City giá hot có 102 căn góc chốt nhanh 18 tỷ,<br>
+    houseDescript: `Nhà phố phố view hồ Lakeview City giá hot có 102 căn góc chốt nhanh 18 tỷ,<br>
     Lakeview City là một trong những khu đô thị tiềm năng và đáng sống tại tại quận 2,<br>
     Lakeview City với vị trí thuận lợi giao thông với các khu vực lân cận và sân bay Long Thành khi xây dựng xong,<br>
     Lakeview City là một trong những dự án có diện tích lớn ở cửa ngõ phía đông thành phố với tổng diện tích 30,1 ha mật độ xây dựng 60% còn lại 40% dành cho cây xanh và các công trình tiện ích dành cho khu đô thị. <br>
@@ -203,7 +201,7 @@ export const house = [
     houseAddDis: "Quận 2",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `BÁN NHÀ MẶT PHỐ LÝ THƯỜNG KIỆT, MẶT TIỀN 4M, ĐANG CHO THUÊ 100TRIỆU/THÁNG GIÁ 33,5 TỶ`,
-    houseDiscrible: `Ở đâu giá rẻ, em có giá rẻ hơn.
+    houseDescript: `Ở đâu giá rẻ, em có giá rẻ hơn.
     Hỗ trợ tư vấn nhiệt tình + tận tâm + lấy uy tín làm đầu + không mua cũng không sao.
     Bên em cam kết: Giá rẻ hơn thị trường, trả sát giá chủ nhà. Miễn sao khách hàng ưng ý, với mức giá thấp nhất.
     Hỗ trợ vay ngân hàng lên đến 80% giá trị căn hộ.
@@ -225,7 +223,7 @@ export const house = [
     houseAddDis: "Quận 2",
     houseAddCity: "Hồ Chí Minh",
     houseTitle: `2PN 92M2 4.350 TỶ THÁP LOTUS - DUPLEX 2PN 4.5 TỶ BAO HẾT`,
-    houseDiscrible: `Căn 1/.
+    houseDescript: `Căn 1/.
     2PN, DT 92m2, tháp Lotus là tháp mới và cao cấp nhất dự án.
     Nhà bố trí layout rất hợp lý, đối lưu gió tốt.
     2 phòng ngủ được tách ra 2 bên, phòng khách ở giữa.
@@ -246,7 +244,7 @@ export const house = [
     houseAddDis: "Hoàn Kiếm",
     houseAddCity: "Hà Nội",
     houseTitle: `Chính chủ bán chung cư 39C Hai Bà Trưng, Hoàn Kiếm DT 55m2 tầng 2`,
-    houseDiscrible: `Hiện tại gia đình tôi đang cần bán căn hộ tại chung cư 39C Hai Bà Trưng, phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội.
+    houseDescript: `Hiện tại gia đình tôi đang cần bán căn hộ tại chung cư 39C Hai Bà Trưng, phường Trần Hưng Đạo, Hoàn Kiếm, Hà Nội.
     Diện tích 55m2, thiết kế 2 phòng ngủ, 1 nhà vệ sinh, 1 phòng khách, 1 bếp.
     Nội thất bao gồm sàn gỗ, bàn ghế, điều hòa, giường tủ, tủ bếp... 
     Nằm ngay mặt đường Hai Bà Trưng, rất thuận tiện đi lại, gần các cơ quan đầu não quốc gia, bờ hồ... 
@@ -267,7 +265,7 @@ export const house = [
     houseAddDis: "Sơn Trà",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Bán căn hộ Hiyori tiêu chuẩn Nhật Bản, khả năng cho thuê tốt`,
-    houseDiscrible: `Vị trí: 4 mặt tiền tuyến đường vàng Võ Văn Kiệt, kết nối sân bay biển thành phố Hội An.
+    houseDescript: `Vị trí: 4 mặt tiền tuyến đường vàng Võ Văn Kiệt, kết nối sân bay biển thành phố Hội An.
     Vị trí nằm giữa cung đường huyết mạch thẳng từ Nguyễn Văn Linh đến Võ Văn Kiệt ra biển Mỹ Khê, chỉ mất 5 phút đi bộ ra biển.
     Nối liền trung tâm du lịch & trung tâm hành chính của thành phố Đà Nẵng.`,
   },
@@ -285,7 +283,7 @@ export const house = [
     houseAddDis: "Sơn Trà",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Chuyển nhà về quê sống nên cần bán căn hộ Hiyori 2PN full nội thất đẹp`,
-    houseDiscrible: `Bán căn hộ 2PN Hiyori Garden Tower full nội thất đẹp, chỉ cần mang quần áo đến ở.
+    houseDescript: `Bán căn hộ 2PN Hiyori Garden Tower full nội thất đẹp, chỉ cần mang quần áo đến ở.
 
     Thông tin dự án Hiyori Garden Tower.
     Hiyori Garden Tower Đà Nẵng tọa lạc trên đường Võ Văn Kiệt, phường An Hải Đông, quận Sơn Trà, TP. Đà Nẵng. Khi đi vào hoạt động, dự án sẽ là một công trình có quy mô, điểm nhấn kiến trúc cảnh quan Đà Nẵng và hoàn chỉnh quy hoạch khu vực.
@@ -316,7 +314,7 @@ export const house = [
     houseAddDis: "Sơn Trà",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Bán căn hộ Fusion Suite , Võ Nguyen Giáp thành phố Đà Nẵng sở hưu lâu dài tiêu chuẩn 4 sao`,
-    houseDiscrible: `Cần bán căn hộ Fusion suite tâng11,12 view trực diẹn biển giá từ 3.1 tỉ
+    houseDescript: `Cần bán căn hộ Fusion suite tâng11,12 view trực diẹn biển giá từ 3.1 tỉ
     tiện tích : Hồ bơi riêng, bãi tắm riêng, nhà hàng, coffee, spa, yoga riêng của toà căn hộ do Fusion Suite vận hành.`,
   },
   {
@@ -333,7 +331,7 @@ export const house = [
     houseAddDis: "Hải Châu",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Bán chung cư Blooming Tower Đà Nẵng 3 phòng ngủ`,
-    houseDiscrible: `
+    houseDescript: `
     Bán chung cư Blooming Tower Đà Nẵng. Căn hộ rộng 135m2, bao gồm 1 phòng khách, 1 phòng bếp, 3 phòng ngủ, 2 phòng vệ sinh. View đẹp, tầng cao. Nội thất đẹp đầy đủ, chỉ xách vali vào ở.
     Chung cư Blooming nằm ngay sát chân cầu Thuận Phước, gần biển Nguyễn Tất Thành. Vị trí đẹp, yên tĩnh, mát mẻ.
     Giá tốt để đầu tư.
@@ -376,7 +374,7 @@ export const house = [
     houseAddDis: "Hải Châu",
     houseAddCity: "Đà Nẵng",
     houseTitle: `Sang nhượng căn hộ F.Home Lý Thường Kiệt, full nội thất giá sụp hầm covid`,
-    houseDiscrible: `Bán căn hộ Fhome giá tốt để mua đầu tư hoặc ở, do nhà có việc gấp nên bán nhanh cho khách thiện chí mua thực sựm không đi xem dạo giá cho vui.
+    houseDescript: `Bán căn hộ Fhome giá tốt để mua đầu tư hoặc ở, do nhà có việc gấp nên bán nhanh cho khách thiện chí mua thực sựm không đi xem dạo giá cho vui.
     Khu căn hộ cho khách nước ngoài thuê 80%, tiện ích nội khu có sẵn hồ bơi, phòng gym, spa, trường học quốc tế. Căn hộ ngay trung tâm thành phố rất thuận tiện cho khách hàng di chuyển đưa đón con đi học hoặc đi làm.
     Diện tích căn hộ: 63m2.
     Thiết kế: 2 phòng ngủ, 1 phòng khách, 1 phòng bếp, 2 wc.
