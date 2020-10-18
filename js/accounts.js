@@ -2,31 +2,16 @@ export const accounts = [
   {
     name: "admin",
     pass: "admin123",
-    id: 1000,
+    id: "1",
+    email: 'admin@gmail.com',
     role: "admin",
+
   },
   {
-    name: "User1",
+    name: "User",
     pass: "blabla",
-    id: 1,
-    role: "user",
-  },
-  {
-    name: "User2",
-    pass: "blabla",
-    id: 2,
-    role: "user",
-  },
-  {
-    name: "User3",
-    pass: "blabla",
-    id: 3,
-    role: "user",
-  },
-  {
-    name: "User4",
-    pass: "blabla",
-    id: 4,
+    id: "2",
+    email:'user@gmail.com',
     role: "user",
   },
 ];

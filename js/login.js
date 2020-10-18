@@ -1,35 +1,23 @@
 import { accounts } from "./accounts.js";
 
-const username = document.getElementById("username");
-const password = document.getElementById("password");
-const submitBtn = document.getElementById("submit-btn");
+let username = document.getElementById("username");
+let password = document.getElementById("password");
+let submitbtn = document.getElementById("submit-btn");
+
+console.log(accounts);
 
 function formLogIn() {
   let matches = accounts.filter((x) => x.name == username.value);
-  let match = {};
-  console.log(matches);
-  if (matches.length != 0) {
-    match = matches[0];
-  } else {
-    match = localStorage.getItem(`${username.value}`);
-    if (match === null) {
-      alert("Wrong username!");
-      return;
-    }
-    match = JSON.parse(match);
-  }
-  console.log(match);
+  const match = matches[0];
   if (password.value == match.pass) {
     switch (match.role) {
       case "admin":
         alert("Hello, admin!");
-        localStorage.setItem("login-status", match.id);
-        window.location.href = "./admin-page.html";
+        window.location = '../admin-page.html';
         break;
       case "user":
-        alert(`Welcome, ${match.name}`);
-        localStorage.setItem("login-status", match.id);
-        window.location.href = "./user-page.html";
+        alert("Welcome, user");
+        window.location= '../user-page.html';
         break;
     }
   } else {
@@ -37,4 +25,4 @@ function formLogIn() {
   }
 }
 
-submitBtn.addEventListener("click", formLogIn);
+submitbtn.addEventListener("click", formLogIn);
