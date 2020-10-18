@@ -7,9 +7,9 @@ console.log(loginStat);
 
 if (loginStat > 0) {
   const loginBtn = document.getElementById("login-btn");
+  loginBtn.innerHTML = "LOG OUT";
   loginBtn.onclick = () => {
     localStorage.setItem("login-status", 0);
-    loginBtn.innerHTML = "LOG OUT";
     console.log(loginStat);
   };
 }
