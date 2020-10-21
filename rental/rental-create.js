@@ -16,10 +16,10 @@ rental.innerHTML += `<div id="intro">
     <div id="img-container" class="d-flex justify-content-center">
       <img class="img-fluid" src="${listing.rentImg}">
     </div>
-    <h4>Address:</h4>
+    <h4 style="padding-top: 1rem;">Address:</h4>
     <p class="text-center">${listing.rentAddress}<br>
     ${listing.rentAddDis}, ${listing.rentAddCity}</p>
-    <h4>Quick information:</h4>
+    <h4 style="padding-top: 1rem;">Quick information:</h4>
     <div class="row text-center" id="quick-info">
       <div class="col-sm-3">
         <h5>Price</h5>
@@ -38,7 +38,7 @@ rental.innerHTML += `<div id="intro">
         <p>${listing.rentSquare} m<sup>2</sup></p>
       </div>
     </div>
-    <h4>Description:</h4>
+    <h4 style="padding-top: 1rem;">Description:</h4>
     <p>${listing.rentDescript}</p>
   </div>
   <div class="col-sm-3">
