@@ -13,7 +13,7 @@ export const house = [
     houseAddDis: "Thanh Xuân",
     houseAddCity: "Hà Nội",
     houseTitle: `Cực hiếm, 40 m2 lô góc, 3 mặt thoáng, oto vào nhà, 4 tầng xây mới. Ngõ 302 Nguyễn Trãi, Thanh Xuân, Hà Nội`,
-    houseDiscrible: ` BÁN NHÀ ĐẸP CHÍNH CHỦ QUẬN THANH XUÂN. 
+    houseDescript: ` BÁN NHÀ ĐẸP CHÍNH CHỦ QUẬN THANH XUÂN. 
          
          Cần bán nhà chính chủ 4x10 `,
   },
