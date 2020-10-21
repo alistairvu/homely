@@ -1,48 +1,46 @@
 #head1 {
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   background-color: lightblue;
-
 }
-#body1 {
+
+#form1 {
   width: 500px;
-      box-sizing: border-box;
-      border: 1px solid black;
-      border-radius: 4px;
-      outline:none;
-      padding: 5px 14px;
-      transition:0.6s ease-in-out;
-    }
-#housePick{
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+  padding: 5px 14px;
+  transition: 0.6s ease-in-out;
+}
+#housePick {
   width: 500px;
-  padding: 3px ;
+  padding: 3px;
 }
 #cityPick {
   width: 465px;
   padding: 3px;
-  
 }
-#districtPick{
- width:  487px;
+#districtPick {
+  width: 487px;
   padding: 3px;
 }
-#area{
+#area {
   width: 490px;
-  padding:3px;
+  padding: 3px;
   box-sizing: border-box;
-      border: 1px solid black;
-      border-radius: 4px;
-      outline:none;
-      padding: 5px 14px;
+  border: 1px solid black;
+  border-radius: 4px;
+  outline: none;
+  padding: 5px 14px;
 
-      transition:0.6s ease-in-out;
-} 
-#head2{
+  transition: 0.6s ease-in-out;
+}
+#head2 {
   display: flex;
   justify-content: center;
-  
 }
-#price{
+#price {
   width: 525px;
   padding: 3px;
 }
