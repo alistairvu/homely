@@ -38,7 +38,7 @@ housedisplay.innerHTML += `<div id="intro">
         <p>${listing.houseSquare} m<sup>2</sup></p>
       </div>
     </div>
-    <h4>Description:</h4>
+    <h4 style = "margin-top: 5px;">Description:</h4>
     <p>${listing.houseDescript}</p>
   </div>
   <div class="col-sm-3">
