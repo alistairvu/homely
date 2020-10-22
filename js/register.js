@@ -45,17 +45,19 @@ function getMaxID() {
   return parseInt(localStorage.getItem("max-id"));
 }
 
+const registerCheck = document.getElementById("register-check");
+
 function registerAcc() {
   if (!checkDuplicate()) {
-    alert("Username already in use!");
+    registerCheck.innerHTML = `<p style="color: red; text-align: center; padding-top: 1rem;">Username already in use!</p>`;
     return;
   }
   if (!securePassword()) {
-    alert("Password not secure enough!");
+    registerCheck.innerHTML = `<p style="color: red; text-align: center; padding-top: 1rem;">Password not secure enough!</p>`;
     return;
   }
   if (!checkPassword()) {
-    alert("Passwords do not match!");
+    registerCheck.innerHTML = `<p style="color: red; text-align: center; padding-top: 1rem;">Passwords do not match!</p>`;
     return;
   }
   const newUser = {

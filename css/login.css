@@ -40,11 +40,11 @@ h1 {
   width: 300px;
   height: 35px;
   margin-bottom: 20px;
-  border: 1px solid grey;
+  border: 2px solid grey;
   border-radius: 5px;
   padding-left: 20px;
 }
-.login-box input[type="submit"] {
+.login-box input[type="button"] {
   border: 2px solid black;
   height: 40px;
   color: black;
