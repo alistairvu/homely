@@ -163,3 +163,16 @@ form {
   max-height: 3rem;
   overflow: hidden;
 }
+.row {
+  padding: 0px 0px 20px 0px;
+}
+
+#images {
+  padding-bottom: 20px;
+}
+#head3 {
+  padding-top: 20px;
+}
+#basic-information{
+  padding-bottom: 20px;
+}
