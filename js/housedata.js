@@ -59,38 +59,38 @@ export const house = [
     Hiện tại view hồ chỉ còn một căn duy nhất chốt giá 15 tỷ khách hàng quan tâm gọi ngay`,
   },
   {
-    rentid: 4,
-    rentImg:
+    houseid: 4,
+    houseImg:
       "https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    rentPrice: 3.1,
-    rentBedroom: 2,
-    rentBathroom: 2,
-    rentFloor: 3,
-    rentPhone: "+84 1235567",
-    rentSquare: 65,
-    rentAddress: "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông",
-    rentAddDis: "Sơn Trà",
-    rentAddCity: "Đà Nẵng",
-    rentTitle: `Bán căn hộ Hiyori tiêu chuẩn Nhật Bản, khả năng cho thuê tốt`,
-    rentDescript: `Vị trí: 4 mặt tiền tuyến đường vàng Võ Văn Kiệt, kết nối sân bay biển thành phố Hội An.
+    housePrice: 3.1,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 3,
+    housePhone: "+84 1235567",
+    houseSquare: 65,
+    houseAddress: "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông",
+    houseAddDis: "Sơn Trà",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Bán căn hộ Hiyori tiêu chuẩn Nhật Bản, khả năng cho thuê tốt`,
+    houseDescript: `Vị trí: 4 mặt tiền tuyến đường vàng Võ Văn Kiệt, kết nối sân bay biển thành phố Hội An.
     Vị trí nằm giữa cung đường huyết mạch thẳng từ Nguyễn Văn Linh đến Võ Văn Kiệt ra biển Mỹ Khê, chỉ mất 5 phút đi bộ ra biển.
     Nối liền trung tâm du lịch & trung tâm hành chính của thành phố Đà Nẵng.`,
   },
   {
-    rentid: 5,
-    rentImg:
+    houseid: 5,
+    houseImg:
       "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
-    rentPrice: 3.9,
-    rentBedroom: 2,
-    rentBathroom: 2,
-    rentFloor: 1,
-    rentPhone: "+84 1235567",
-    rentSquare: 63,
-    rentAddress: "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông",
-    rentAddDis: "Sơn Trà",
-    rentAddCity: "Đà Nẵng",
-    rentTitle: `Chuyển nhà về quê sống nên cần bán căn hộ Hiyori 2PN full nội thất đẹp`,
-    rentDescript: `Bán căn hộ 2PN Hiyori Garden Tower full nội thất đẹp, chỉ cần mang quần áo đến ở.
+    housePrice: 3.9,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 63,
+    houseAddress: "Hiyori Garden Tower, Đường Võ Văn Kiệt, Phường An Hải Đông",
+    houseAddDis: "Sơn Trà",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Chuyển nhà về quê sống nên cần bán căn hộ Hiyori 2PN full nội thất đẹp`,
+    houseDescript: `Bán căn hộ 2PN Hiyori Garden Tower full nội thất đẹp, chỉ cần mang quần áo đến ở.
 
     Thông tin dự án Hiyori Garden Tower.
     Hiyori Garden Tower Đà Nẵng tọa lạc trên đường Võ Văn Kiệt, phường An Hải Đông, quận Sơn Trà, TP. Đà Nẵng. Khi đi vào hoạt động, dự án sẽ là một công trình có quy mô, điểm nhấn kiến trúc cảnh quan Đà Nẵng và hoàn chỉnh quy hoạch khu vực.
@@ -108,37 +108,37 @@ export const house = [
     Tổng diện tích sàn: 33376m2.`,
   },
   {
-    rentid: 5,
-    rentImg:
+    houseid: 5,
+    houseImg:
       "https://images.unsplash.com/photo-1519643381401-22c77e60520e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80",
-    rentPrice: 3,
-    rentBedroom: 2,
-    rentBathroom: 2,
-    rentFloor: 1,
-    rentPhone: "+84 1235567",
-    rentSquare: 63,
-    rentAddress: "Dự án Fusion Suites Da Nang Beach",
-    rentAddDis: "Sơn Trà",
-    rentAddCity: "Đà Nẵng",
-    rentTitle: `Bán căn hộ Fusion Suite , Võ Nguyen Giáp thành phố Đà Nẵng sở hưu lâu dài tiêu chuẩn 4 sao`,
-    rentDescript: `Cần bán căn hộ Fusion suite tâng11,12 view trực diẹn biển giá từ 3.1 tỉ
+    housePrice: 3,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 63,
+    houseAddress: "Dự án Fusion Suites Da Nang Beach",
+    houseAddDis: "Sơn Trà",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Bán căn hộ Fusion Suite , Võ Nguyen Giáp thành phố Đà Nẵng sở hưu lâu dài tiêu chuẩn 4 sao`,
+    houseDescript: `Cần bán căn hộ Fusion suite tâng11,12 view trực diẹn biển giá từ 3.1 tỉ
     tiện tích : Hồ bơi riêng, bãi tắm riêng, nhà hàng, coffee, spa, yoga riêng của toà căn hộ do Fusion Suite vận hành.`,
   },
   {
-    rentid: 5,
-    rentImg:
+    houseid: 5,
+    houseImg:
       "https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80",
-    rentPrice: 4.32,
-    rentBedroom: 3,
-    rentBathroom: 3,
-    rentFloor: 1,
-    rentPhone: "+84 1235567",
-    rentSquare: 132,
-    rentAddress: "Dự án Blooming Tower, Đường Xuân Diệu, Phường Thuận Phước",
-    rentAddDis: "Hải Châu",
-    rentAddCity: "Đà Nẵng",
-    rentTitle: `Bán chung cư Blooming Tower Đà Nẵng 3 phòng ngủ`,
-    rentDescript: `
+    housePrice: 4.32,
+    houseBedroom: 3,
+    houseBathroom: 3,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 132,
+    houseAddress: "Dự án Blooming Tower, Đường Xuân Diệu, Phường Thuận Phước",
+    houseAddDis: "Hải Châu",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Bán chung cư Blooming Tower Đà Nẵng 3 phòng ngủ`,
+    houseDescript: `
     Bán chung cư Blooming Tower Đà Nẵng. Căn hộ rộng 135m2, bao gồm 1 phòng khách, 1 phòng bếp, 3 phòng ngủ, 2 phòng vệ sinh. View đẹp, tầng cao. Nội thất đẹp đầy đủ, chỉ xách vali vào ở.
     Chung cư Blooming nằm ngay sát chân cầu Thuận Phước, gần biển Nguyễn Tất Thành. Vị trí đẹp, yên tĩnh, mát mẻ.
     Giá tốt để đầu tư.
@@ -147,20 +147,20 @@ export const house = [
     Địa chỉ: Tầng 4 Kim Sơn Building, 16 - 18 Phan Thành Tài - Q. Hải Châu - TP Đà Nẵng.`,
   },
   {
-    rentid: 2,
-    rentImg:
+    houseid: 2,
+    houseImg:
       "https://images.unsplash.com/photo-1510627489930-0c1b0bfb6785?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    rentPrice: 4.6,
-    rentBedroom: 2,
-    rentBathroom: 2,
-    rentFloor: 1,
-    rentPhone: "+84 1235567",
-    rentSquare: 108,
-    rentAddress: "Dự án Lakeview City, Đường Song Hành, Phường An Phú",
-    rentAddDis: "Hải Châu",
-    rentAddCity: "Đà Nẵng",
-    rentTitle: `Bán căn hộ Indochina đường Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng`,
-    rentDescript: `Căn hộ tầng cao rộng 108m2, view đẹp. Thiết kế gồm có 1 phòng khách, 1 phòng bếp, 2 phòng ngủ và 2 phòng vệ sinh. Full nội thất đẹp.
+    housePrice: 4.6,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 108,
+    houseAddress: "Dự án Lakeview City, Đường Song Hành, Phường An Phú",
+    houseAddDis: "Hải Châu",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Bán căn hộ Indochina đường Bạch Đằng, quận Hải Châu, thành phố Đà Nẵng`,
+    houseDescript: `Căn hộ tầng cao rộng 108m2, view đẹp. Thiết kế gồm có 1 phòng khách, 1 phòng bếp, 2 phòng ngủ và 2 phòng vệ sinh. Full nội thất đẹp.
     Căn hộ Indochina là căn hộ cao cấp nằm ngay trung tâm thành phố, sát sông Hàn. Đầy đủ tiện ích, công năng sử dụng. An ninh 24/24.
     Thuận tiện giao thương đi lại.
     Thích hợp mua ở hoặc đầu tư.
@@ -169,20 +169,20 @@ export const house = [
     Địa chỉ: Tầng 4 Kim Sơn Building, 16 - 18 Phan Thành Tài - Q. Hải Châu - TP Đà Nẵng.`,
   },
   {
-    rentid: 1,
-    rentImg:
+    houseid: 1,
+    houseImg:
       "https://images.unsplash.com/photo-1542853647-47ad77242390?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
-    rentPrice: 2.25,
-    rentBedroom: 2,
-    rentBathroom: 2,
-    rentFloor: 1,
-    rentPhone: "+84 1235567",
-    rentSquare: 63,
-    rentAddress: "Dự án F.Home, Phố Lý Thường Kiệt, Phường Thạch Thang",
-    rentAddDis: "Hải Châu",
-    rentAddCity: "Đà Nẵng",
-    rentTitle: `Sang nhượng căn hộ F.Home Lý Thường Kiệt, full nội thất giá sụp hầm covid`,
-    rentDescript: `Bán căn hộ Fhome giá tốt để mua đầu tư hoặc ở, do nhà có việc gấp nên bán nhanh cho khách thiện chí mua thực sựm không đi xem dạo giá cho vui.
+    housePrice: 2.25,
+    houseBedroom: 2,
+    houseBathroom: 2,
+    houseFloor: 1,
+    housePhone: "+84 1235567",
+    houseSquare: 63,
+    houseAddress: "Dự án F.Home, Phố Lý Thường Kiệt, Phường Thạch Thang",
+    houseAddDis: "Hải Châu",
+    houseAddCity: "Đà Nẵng",
+    houseTitle: `Sang nhượng căn hộ F.Home Lý Thường Kiệt, full nội thất giá sụp hầm covid`,
+    houseDescript: `Bán căn hộ Fhome giá tốt để mua đầu tư hoặc ở, do nhà có việc gấp nên bán nhanh cho khách thiện chí mua thực sựm không đi xem dạo giá cho vui.
     Khu căn hộ cho khách nước ngoài thuê 80%, tiện ích nội khu có sẵn hồ bơi, phòng gym, spa, trường học quốc tế. Căn hộ ngay trung tâm thành phố rất thuận tiện cho khách hàng di chuyển đưa đón con đi học hoặc đi làm.
     Diện tích căn hộ: 63m2.
     Thiết kế: 2 phòng ngủ, 1 phòng khách, 1 phòng bếp, 2 wc.
