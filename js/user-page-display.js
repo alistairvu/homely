@@ -26,7 +26,6 @@ for (let i = 0; i < house.length; i++) {
     } <br>
           Bathrooms: ${houseNum.houseBathroom}<br>Area: ${
       houseNum.houseSquare
-      
     }m <sup>2</sup>
           </p>
         </div>
@@ -73,4 +72,5 @@ window.disableFunction = function disableFunction(nameButton) {
   document.getElementById(nameButton).innerHTML = "Deleted";
 };
 
-document.getElementById("listing-number").innerHTML = listingNum;
+document.getElementById("listing-number").innerHTML =
+  listingNum === 1 ? `1 listing.` : `${listingNum} listings.`;
