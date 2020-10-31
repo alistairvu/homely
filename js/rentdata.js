@@ -167,29 +167,4 @@ export const rent = [
     - Xung quanh đã có nhiều gia đình dọn đến ở, khu dân trí cao. <br>
     - Khu vực yên tĩnh và rất an ninh Không gian sống trong lành.`,
   },
-  {
-    rentid: 3,
-    rentImg:
-      "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80",
-    rentPrice: 7.2,
-    rentBedroom: 4,
-    rentBathroom: 3,
-    rentFloor: 2,
-    rentPhone: "+84 1235567",
-    rentSquare: 90,
-    rentAddress:
-      "Thống Nhất Complex, số 82, Đường Nguyễn Tuân, Phường Thanh Xuân Trung",
-    rentAddDis: "Thanh Xuân",
-    rentAddCity: "Hà Nội",
-    rentTitle: `Bán liền kề 88m2 thấp tầng tổ hợp nhà LK trung tâm thương mại Thống Nhất Complex số 82 Nguyễn Tuân`,
-    rentDescript: `Bán liền kề 88m2 nhà ở thấp tầng tổ hợp nhà liền kề trung tâm thương mại và nhà ở Thống Nhất Complex số 82 Nguyễn Tuân - Quận Thanh Xuân - Hà Nội. <br>
-    - Chủ đầu tư Công Ty Thống Nhất Bắc Việt. <br>
-    - Vị trí số 82 đường Nguyễn Tuân - Thanh Xuân. <br>
-    - Diện tích: 88m2 xây 5 tầng có thang máy. <br>
-    - Hướng Đông Nam. <br>
-    - Tổng diện tích xây dựng 450m2. <br>
-    - Mật độ xây dựng: 85%. <br>
-    - Đường phân lô 12.5m. <br>
-    Vị trí cách đường Nguyễn Tuân 20m.`,
-  },
 ];
