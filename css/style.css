@@ -58,7 +58,11 @@ a {
   padding-right: 1rem;
   background-color: whitesmoke;
   text-align: center;
+        background-image: url("/photos/ales-krivec-N-aTikX-b00-unsplash.jpg");
 }
+
+
+
 
 #intro-index {
   padding-top: 7rem;
@@ -217,3 +221,4 @@ footer #contents {
 #basic-information {
   padding-bottom: 20px;
 }
+
