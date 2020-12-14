@@ -24,11 +24,14 @@ h1 {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
+  
 }
 
 #login-form {
   margin-left: 50px;
+  margin-bottom: 50px;
+  
 }
 
 .login-box input {
