@@ -7,11 +7,12 @@ const submitBtn = document.getElementById("submit-btn");
 function formLogIn() {
   let matches = accounts.filter((x) => x.name == username.value);
   let match = {};
-  console.log(matches);
+  console.log(matches.length);
   if (matches.length != 0) {
     match = matches[0];
   } else {
     match = localStorage.getItem(`${username.value}`);
+    console.log(match)
     if (match === null) {
       alert("Wrong username!");
       return;
@@ -29,7 +30,7 @@ function formLogIn() {
       case "user":
         alert(`Welcome, ${match.name}`);
         localStorage.setItem("login-status", match.id);
-        window.location.href = "./user-page.html";
+        window.location.href = "./index.html";
         break;
     }
   } else {
