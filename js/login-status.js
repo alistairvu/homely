@@ -25,8 +25,8 @@ if (
   document.getElementById("call-to-action") != null
 ) {
   document.getElementById("call-to-action").innerHTML = `
-  Click <a href="./user-page.html">here</a> to view your listings.<br>
-  Or, click <a href="./listing-upload.html">here</a> to browse our listings.`;
+  Click <a href="./user-page.html"style=" color:white">here</a> to view your listings.<br>
+  Or, click <a href="./listing-upload.html" style ="color :white">here</a> to browse our listings.`;
 }
 
 if (loginStat === 1000 && document.getElementById("call-to-action") != null) {
