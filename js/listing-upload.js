@@ -1,8 +1,10 @@
 const cityPick = document.getElementById("city-pick");
+console.log(cityPick)
 const districtOptions = document.getElementById("district-options");
 
-cityPick.onchange = function () {
+cityPick.onchange = function  () {
   let citySelection = cityPick.options[cityPick.selectedIndex].text;
+  console.log(citySelection)
   //Change district options
   switch (citySelection) {
     case "Hanoi":
