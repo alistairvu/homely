@@ -7,7 +7,7 @@ uploadBtn.onclick(function () {
 // import { rent } from "./rentdata.js";
 // import { house } from "./housedata.js";
 
-// let rentSale = document.getElementById("rentSale");
+// let rentSale = document.getElementById("renll;.', tSale");
 
 // let newListing = {};
 // rentSale.onchange = function () {
